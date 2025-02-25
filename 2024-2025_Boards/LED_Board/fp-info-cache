@@ -1,4 +1,4 @@
-24233926540703195
+24232194498333497
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2575,27 +2575,6 @@ speaker CUI
 0
 2
 2
-CMR_2x1_Pin_Header
-CONN_M20-99902_HRW
-
-M20-9990245 
-0
-2
-2
-CMR_6x1_Pin_Header
-6130XX11121_61300611121
-<B>WR-PHD </B><BR> 2.54mm Pin Header, 6 Pin
-
-0
-6
-6
-CMR_CAN_Connector
-SAMTEC_SQT-104-01-X-S-RA
-
-
-0
-4
-4
 CMR_Fan_Pin_Header
 CONN_A-6373-03A_MOL
 
@@ -2610,13 +2589,27 @@ FUSE_3568
 0
 4
 4
-CMR_Power_Connector
-AMASS_XT30PW-F
+CMR_LED_Array_Pins
+TENSILITY_54-00236
 
 
 0
-4
-4
+5
+5
+CMR_N_Channel_Power_Mosfet
+CSD88537ND8-M
+
+CSD88537ND 
+0
+8
+8
+CMR_Power_CAN_Connector
+3007W2PAT73A10X
+
+
+0
+7
+7
 CMR_Voltage_Suppressor
 SOT95P237X111-3N
 
