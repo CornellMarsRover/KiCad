@@ -1,4 +1,4 @@
-24232194498333497
+24235671325450902
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2575,6 +2575,13 @@ speaker CUI
 0
 2
 2
+CMR_CAN_Connector
+SAMTEC_SQT-104-01-X-S-RA
+
+
+0
+4
+4
 CMR_Fan_Pin_Header
 CONN_A-6373-03A_MOL
 
@@ -2610,6 +2617,13 @@ CMR_Power_CAN_Connector
 0
 7
 7
+CMR_Power_Connector
+AMASS_XT30PW-F
+
+
+0
+4
+4
 CMR_Voltage_Suppressor
 SOT95P237X111-3N
 
