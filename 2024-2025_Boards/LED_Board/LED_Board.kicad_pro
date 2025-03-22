@@ -179,6 +179,7 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
         0.3,
         0.5,
         0.8
@@ -594,6 +595,30 @@
     [
       "4c21b103-e126-41c8-b4c1-44c23f7fbe16",
       "Root"
+    ],
+    [
+      "c786d1d1-e988-4e3b-9306-6654d5635b43",
+      "Power"
+    ],
+    [
+      "615307ed-25f9-4ca4-a818-06748206c26b",
+      "MCU"
+    ],
+    [
+      "48dcba8c-d273-42f6-8564-8e4e049c5764",
+      "CAN"
+    ],
+    [
+      "d8e2c494-3e0b-456f-bf11-8c329d0d1a67",
+      "LED"
+    ],
+    [
+      "d5f5fa17-bc68-4ca7-bb05-747d3dddee42",
+      "Fan_Connectors"
+    ],
+    [
+      "c15fa739-1bce-49a6-9055-82ecfe263233",
+      "Test_Points"
     ]
   ],
   "text_variables": {}
