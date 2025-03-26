@@ -486,7 +486,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../Downloads/LED_Board.step",
       "svg": "",
       "vrml": ""
     },
