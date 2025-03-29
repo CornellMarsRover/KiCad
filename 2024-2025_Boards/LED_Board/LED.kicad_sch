@@ -1533,7 +1533,7 @@
 			)
 		)
 	)
-	(global_label "V_IN"
+	(global_label "V_Fuse"
 		(shape input)
 		(at 90.17 90.17 0)
 		(fields_autoplaced yes)
@@ -1545,7 +1545,7 @@
 		)
 		(uuid "d0e2b591-a651-454f-80e1-07810b5c0bbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.1467 90.17 0)
+			(at 99.5657 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
