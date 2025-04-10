@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "POE_UPDATES-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/POE_UPDATES-eagle-import.kicad_sym")(options "")(descr ""))
+)
