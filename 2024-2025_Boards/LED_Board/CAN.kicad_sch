@@ -5,7 +5,7 @@
 	(uuid "ceba0d1b-4a27-41c7-8d19-1987b315fc82")
 	(paper "A4")
 	(lib_symbols
-		(symbol "CMR_Voltage_Suppressor:MMBZ27VCLT1G"
+		(symbol "Cornell_Mars_Rover:MMBZ27VCLT1G"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1484,7 +1484,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CMR_Voltage_Suppressor:MMBZ27VCLT1G")
+		(lib_id "Cornell_Mars_Rover:MMBZ27VCLT1G")
 		(at 165.1 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1509,7 +1509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cornell_Mars_Rover:SOT95P237X111-3N"
+		(property "Footprint" "MMBZ27VCLT1G:SOT95P237X111-3N"
 			(at 165.1 113.03 0)
 			(effects
 				(font
@@ -1816,7 +1816,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CMR_Voltage_Suppressor:MMBZ27VCLT1G")
+		(lib_id "Cornell_Mars_Rover:MMBZ27VCLT1G")
 		(at 118.11 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1841,7 +1841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cornell_Mars_Rover:SOT95P237X111-3N"
+		(property "Footprint" "MMBZ27VCLT1G:SOT95P237X111-3N"
 			(at 118.11 113.03 0)
 			(effects
 				(font
