@@ -1,5 +1,3 @@
-import pypandoc
-
 # Content for the markdown file
 content = """# 2025-2026 Boards
 
@@ -13,17 +11,11 @@ This repository contains PCB designs for boards created in KiCad during the 2025
 
 ## Board Projects
 
-- [ ] Board 1 – Description and specs TBD  
-- [ ] Board 2 – Description and specs TBD  
-- [ ] Board 3 – Description and specs TBD  
+- [ ] CANFD to USB board – Converts our USB connection to CANFD and vice versa to converse with the jetson
+- [ ] PDB – Powers and distributes power through everything and can remotely turns on and off power to boards
+- [ ] Temperature Regulation Board – Gets the temperature, displays it and turns on and off fans depending on the temperature 
 
 ## Notes
 
 All designs should follow standard design rules and best practices for manufacturability and testing. Updates will be logged as the boards progress from schematic to layout to fabrication.
 """
-
-# Save as markdown
-output_path = "/mnt/data/2025-2026_boards.md"
-pypandoc.convert_text(content, 'md', format='md', outputfile=output_path, extra_args=['--standalone'])
-
-print(f"Markdown file created at: {output_path}")
