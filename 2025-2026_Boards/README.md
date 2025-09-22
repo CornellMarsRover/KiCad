@@ -1,5 +1,5 @@
 # Content for the markdown file
-content = """# 2025-2026 Boards
+content = 2025-2026 Boards
 
 This repository contains PCB designs for boards created in KiCad during the 2025-2026 design cycle.
 
@@ -18,4 +18,4 @@ This repository contains PCB designs for boards created in KiCad during the 2025
 ## Notes
 
 All designs should follow standard design rules and best practices for manufacturability and testing. Updates will be logged as the boards progress from schematic to layout to fabrication.
-"""
+
