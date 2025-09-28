@@ -1,0 +1,428 @@
+Info: Processing symbol 'C1:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C8:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C5:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C12:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C11:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C4:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C9:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'D1:Capacitor_SMD:C_0201_0603Metric'.
+Info: Processing symbol 'C13:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C3:Capacitor_SMD:C_0201_0603Metric'.
+Info: Processing symbol 'C10:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'J1:Connector_USB:USB_Micro-B_Wuerth_629105150521'.
+Info: Processing symbol 'J2:Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical'.
+Info: Processing symbol 'C2:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'FB1:LED_SMD:LED_0603_1608Metric'.
+Info: Processing symbol 'C7:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C6:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'J3:Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical'.
+Info: Processing symbol 'J4:Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical'.
+Info: Processing symbol 'R1:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R2:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R3:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R4:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R5:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'SW1:Button_Switch_THT:SW_Lever_1P2T_NKK_GW12LxH'.
+Info: Processing symbol 'U1:Package_QFP:LQFP-48_7x7mm_P0.5mm'.
+Info: Total warnings: 0, errors: 0.
+Info: Processing symbol 'U3:Package_TO_SOT_SMD:SOT-223-3_TabPin2'.
+Info: Processing symbol 'Y1:Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm'.
+Added C2 (footprint 'Capacitor_SMD:C_0805_2012Metric').
+Changed REF** reference designator to C2.
+Changed C2 value from C_0805_2012Metric to 22u.
+Updated C2 symbol association from  to /b6d4c71c-291d-4fe0-8788-57287de6e553.
+Updated C2 fields.
+Updated C2 sheetname to '/'.
+Updated C2 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated C2 footprint filters to 'C_*'.
+Connected C2 pin 2 to GND.
+Add net +3.3V.
+Connected C2 pin 1 to +3.3V.
+Added C3 (footprint 'Capacitor_SMD:C_0201_0603Metric').
+Changed REF** reference designator to C3.
+Changed C3 value from C_0201_0603Metric to 10u.
+Updated C3 symbol association from  to /ed851e69-2034-4826-b9c6-a5423c8284f3.
+Updated C3 fields.
+Updated C3 sheetname to '/'.
+Updated C3 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated C3 footprint filters to 'C_*'.
+Connected C3 pin 1 to +3.3V.
+Connected C3 pin 2 to GND.
+Added C4 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Changed REF** reference designator to C4.
+Changed C4 value from C_0402_1005Metric to 100n.
+Updated C4 symbol association from  to /bf92a8fb-b058-4621-85d4-d4061328162c.
+Updated C4 fields.
+Updated C4 sheetname to '/'.
+Updated C4 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated C4 footprint filters to 'C_*'.
+Connected C4 pin 1 to +3.3V.
+Connected C4 pin 2 to GND.
+Added C5 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Changed REF** reference designator to C5.
+Changed C5 value from C_0402_1005Metric to 100n.
+Updated C5 symbol association from  to /f8c5214a-62d0-47f4-b01d-1f5d3a3091e1.
+Updated C5 fields.
+Updated C5 sheetname to '/'.
+Updated C5 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated C5 footprint filters to 'C_*'.
+Connected C5 pin 2 to GND.
+Connected C5 pin 1 to +3.3V.
+Added C6 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Changed REF** reference designator to C6.
+Changed C6 value from C_0402_1005Metric to 100n.
+Updated C6 symbol association from  to /6b9006ed-b492-4e32-91a1-937469b53641.
+Updated C6 fields.
+Updated C6 sheetname to '/'.
+Updated C6 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated C6 footprint filters to 'C_*'.
+Connected C6 pin 2 to GND.
+Connected C6 pin 1 to +3.3V.
+Added C7 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Changed REF** reference designator to C7.
+Changed C7 value from C_0402_1005Metric to 100n.
+Updated C7 symbol association from  to /3e92872e-b4cf-4db2-8405-62f46249a809.
+Updated C7 fields.
+Updated C7 sheetname to '/'.
+Updated C7 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated C7 footprint filters to 'C_*'.
+Connected C7 pin 1 to +3.3V.
+Connected C7 pin 2 to GND.
+Added C8 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Changed REF** reference designator to C8.
+Changed C8 value from C_0402_1005Metric to 10n.
+Updated C8 symbol association from  to /9238fd82-512f-464e-a9c8-2c45fb49c1e1.
+Updated C8 fields.
+Updated C8 sheetname to '/'.
+Updated C8 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated C8 footprint filters to 'C_*'.
+Connected C8 pin 2 to GND.
+Add net +3.3VA.
+Connected C8 pin 1 to +3.3VA.
+Added C9 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Changed REF** reference designator to C9.
+Changed C9 value from C_0402_1005Metric to 1u.
+Updated C9 symbol association from  to /17414fc5-e2b7-45f0-b56b-0cb226760ac5.
+Updated C9 fields.
+Updated C9 sheetname to '/'.
+Updated C9 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated C9 footprint filters to 'C_*'.
+Connected C9 pin 2 to GND.
+Connected C9 pin 1 to +3.3VA.
+Added C10 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Changed REF** reference designator to C10.
+Changed C10 value from C_0402_1005Metric to 1u.
+Updated C10 symbol association from  to /7730885b-1224-43c4-8b3a-57ae6bd3f36c.
+Updated C10 fields.
+Updated C10 sheetname to '/'.
+Updated C10 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated C10 footprint filters to 'C_*'.
+Add net Net-(C10-Pad1).
+Connected C10 pin 1 to Net-(C10-Pad1).
+Connected C10 pin 2 to GND.
+Added C11 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Changed REF** reference designator to C11.
+Changed C11 value from C_0402_1005Metric to 100n.
+Updated C11 symbol association from  to /133ebc31-5ec1-4c5d-a23f-1412aa928573.
+Updated C11 fields.
+Updated C11 sheetname to '/'.
+Updated C11 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated C11 footprint filters to 'C_*'.
+Connected C11 pin 2 to GND.
+Add net /NRST.
+Connected C11 pin 1 to /NRST.
+Added C12 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Changed REF** reference designator to C12.
+Changed C12 value from C_0402_1005Metric to 10p.
+Updated C12 symbol association from  to /337f32bb-afa5-48f1-baba-4ab58ca39693.
+Updated C12 fields.
+Updated C12 sheetname to '/'.
+Updated C12 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated C12 footprint filters to 'C_*'.
+Connected C12 pin 2 to GND.
+Add net /HSE_IN.
+Connected C12 pin 1 to /HSE_IN.
+Added C13 (footprint 'Capacitor_SMD:C_0402_1005Metric').
+Changed REF** reference designator to C13.
+Changed C13 value from C_0402_1005Metric to 10p.
+Updated C13 symbol association from  to /41892a0b-208f-47ad-94b3-c86c80d4b9da.
+Updated C13 fields.
+Updated C13 sheetname to '/'.
+Updated C13 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated C13 footprint filters to 'C_*'.
+Add net /HSE_OUT.
+Connected C13 pin 1 to /HSE_OUT.
+Connected C13 pin 2 to GND.
+Added D1 (footprint 'Capacitor_SMD:C_0201_0603Metric').
+Changed REF** reference designator to D1.
+Changed D1 value from C_0201_0603Metric to LED.
+Updated D1 symbol association from  to /f3ec9adc-02c8-47d0-8346-31851e41d244.
+Updated D1 fields.
+Updated D1 sheetname to '/'.
+Updated D1 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated D1 footprint filters to 'LED* LED_SMD:* LED_THT:*'.
+Connected D1 pin 2 to +3.3V.
+Add net /PWR_LED_K.
+Connected D1 pin 1 to /PWR_LED_K.
+Added FB1 (footprint 'LED_SMD:LED_0603_1608Metric').
+Changed REF** reference designator to FB1.
+Changed FB1 value from LED_0603_1608Metric to 120R.
+Updated FB1 symbol association from  to /3f53d38b-5e1b-4ad0-99b8-3c7a897e14b8.
+Updated FB1 fields.
+Updated FB1 sheetname to '/'.
+Updated FB1 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated FB1 footprint filters to 'Inductor_* L_* *Ferrite*'.
+Connected FB1 pin 2 to Net-(C10-Pad1).
+Connected FB1 pin 1 to +3.3VA.
+Added J1 (footprint 'Connector_USB:USB_Micro-B_Wuerth_629105150521').
+Changed REF** reference designator to J1.
+Changed J1 value from USB_Micro-B_Wuerth_629105150521 to USB_B_Micro.
+Updated J1 symbol association from  to /0c23220e-d8cc-4018-b07a-28494f0090f6.
+Updated J1 fields.
+Updated J1 sheetname to '/'.
+Updated J1 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated J1 footprint filters to 'USB*Micro*B*'.
+Add net /USB_D-.
+Connected J1 pin 2 to /USB_D-.
+Add net unconnected-(J1-Shield-Pad6).
+Connected J1 pin 6 to unconnected-(J1-Shield-Pad6).
+Add net /USB_D+.
+Connected J1 pin 3 to /USB_D+.
+Connected J1 pin 5 to GND.
+Connected J1 pin 1 to VBUS.
+Add net unconnected-(J1-Shield-Pad6)_1.
+Connected J1 pin 6 to unconnected-(J1-Shield-Pad6)_1.
+Add net unconnected-(J1-ID-Pad4).
+Connected J1 pin 4 to unconnected-(J1-ID-Pad4).
+Add net unconnected-(J1-Shield-Pad6)_2.
+Connected J1 pin 6 to unconnected-(J1-Shield-Pad6)_2.
+Add net unconnected-(J1-Shield-Pad6)_3.
+Connected J1 pin 6 to unconnected-(J1-Shield-Pad6)_3.
+Added J2 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical').
+Changed REF** reference designator to J2.
+Changed J2 value from PinHeader_1x04_P2.54mm_Vertical to Conn_01x04_Pin.
+Updated J2 symbol association from  to /91ae4030-8104-42e9-9e2a-ac24a09c3da5.
+Updated J2 fields.
+Updated J2 sheetname to '/'.
+Updated J2 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated J2 footprint filters to 'Connector*:*_1x??_*'.
+Connected J2 pin 4 to GND.
+Connected J2 pin 1 to +3.3V.
+Add net /USART1_TX.
+Connected J2 pin 2 to /USART1_TX.
+Add net /USART1_RX.
+Connected J2 pin 3 to /USART1_RX.
+Added C1 (footprint 'Capacitor_SMD:C_0805_2012Metric').
+Added J3 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical').
+Changed REF** reference designator to J3.
+Changed J3 value from PinHeader_1x04_P2.54mm_Vertical to Conn_01x04_Pin.
+Updated J3 symbol association from  to /47e70f3e-559e-4887-89c0-aaf537fef4a6.
+Updated J3 fields.
+Updated J3 sheetname to '/'.
+Updated J3 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated J3 footprint filters to 'Connector*:*_1x??_*'.
+Add net /SWCLK.
+Connected J3 pin 3 to /SWCLK.
+Add net /SDIO.
+Connected J3 pin 2 to /SDIO.
+Connected J3 pin 4 to GND.
+Connected J3 pin 1 to +3.3V.
+Changed REF** reference designator to C1.
+Added J4 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical').
+Changed REF** reference designator to J4.
+Changed J4 value from PinHeader_1x04_P2.54mm_Vertical to Conn_01x04_Pin.
+Updated J4 symbol association from  to /6f96754b-6a59-487b-a1fb-ffb7606834d5.
+Updated J4 fields.
+Updated J4 sheetname to '/'.
+Updated J4 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated J4 footprint filters to 'Connector*:*_1x??_*'.
+Add net /I2C2_STL.
+Connected J4 pin 2 to /I2C2_STL.
+Connected J4 pin 1 to +3.3V.
+Connected J4 pin 4 to GND.
+Add net /I2C2_STA.
+Connected J4 pin 3 to /I2C2_STA.
+Changed C1 value from C_0805_2012Metric to 22u.
+Added R1 (footprint 'Resistor_SMD:R_0402_1005Metric').
+Changed REF** reference designator to R1.
+Changed R1 value from R_0402_1005Metric to 1k5.
+Updated R1 symbol association from  to /d02b008e-b7e6-429e-859a-bb43dd675474.
+Updated R1 fields.
+Updated R1 sheetname to '/'.
+Updated R1 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated R1 footprint filters to 'R_*'.
+Connected R1 pin 2 to GND.
+Connected R1 pin 1 to /PWR_LED_K.
+Updated C1 symbol association from  to /60df262d-469d-45f3-8441-d58d61f21216.
+Added R2 (footprint 'Resistor_SMD:R_0402_1005Metric').
+Changed REF** reference designator to R2.
+Changed R2 value from R_0402_1005Metric to 1Ok.
+Updated R2 symbol association from  to /8170b7dc-92ca-4603-a1e7-c12b945a3821.
+Updated R2 fields.
+Updated R2 sheetname to '/'.
+Updated R2 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated R2 footprint filters to 'R_*'.
+Add net /BOOT0.
+Connected R2 pin 2 to /BOOT0.
+Add net /sw_boot0.
+Connected R2 pin 1 to /sw_boot0.
+Updated C1 fields.
+Added R3 (footprint 'Resistor_SMD:R_0402_1005Metric').
+Changed REF** reference designator to R3.
+Changed R3 value from R_0402_1005Metric to 1k5.
+Updated R3 symbol association from  to /9921efc5-58a8-44e8-8ad2-ddb699e8de28.
+Updated R3 fields.
+Updated R3 sheetname to '/'.
+Updated R3 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated R3 footprint filters to 'R_*'.
+Connected R3 pin 2 to /USB_D+.
+Connected R3 pin 1 to +3.3V.
+Updated C1 sheetname to '/'.
+Added R4 (footprint 'Resistor_SMD:R_0402_1005Metric').
+Changed REF** reference designator to R4.
+Changed R4 value from R_0402_1005Metric to 1k5.
+Updated R4 symbol association from  to /ae9884f6-4654-4aed-b69c-fafc2cc7d3ea.
+Updated R4 fields.
+Updated R4 sheetname to '/'.
+Updated R4 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated R4 footprint filters to 'R_*'.
+Connected R4 pin 1 to +3.3V.
+Connected R4 pin 2 to /I2C2_STL.
+Updated C1 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Added R5 (footprint 'Resistor_SMD:R_0402_1005Metric').
+Changed REF** reference designator to R5.
+Changed R5 value from R_0402_1005Metric to 1k5.
+Updated R5 symbol association from  to /8430a5cb-bdc1-49b1-ac15-d008035c0a95.
+Updated R5 fields.
+Updated R5 sheetname to '/'.
+Updated R5 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated R5 footprint filters to 'R_*'.
+Connected R5 pin 1 to +3.3V.
+Connected R5 pin 2 to /I2C2_STA.
+Updated C1 footprint filters to 'C_*'.
+Added SW1 (footprint 'Button_Switch_THT:SW_Lever_1P2T_NKK_GW12LxH').
+Changed REF** reference designator to SW1.
+Changed SW1 value from SW_Lever_1P2T_NKK_GW12LxH to SW_SPDT.
+Updated SW1 symbol association from  to /f965d928-d702-4cdc-803d-9e3c02cdf3d4.
+Updated SW1 fields.
+Updated SW1 sheetname to '/'.
+Updated SW1 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Connected SW1 pin 3 to +3.3V.
+Connected SW1 pin 2 to /sw_boot0.
+Connected SW1 pin 1 to GND.
+Add net VBUS.
+Added U1 (footprint 'Package_QFP:LQFP-48_7x7mm_P0.5mm').
+Changed REF** reference designator to U1.
+Changed U1 value from LQFP-48_7x7mm_P0.5mm to STM32F103C8T6.
+Updated U1 symbol association from  to /1bed7757-aabf-47dc-839d-2e5d5afd09d0.
+Updated U1 fields.
+Connected C1 pin 1 to VBUS.
+Updated U1 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated U1 footprint filters to 'LQFP*7x7mm*P0.5mm*'.
+Connected U1 pin 42 to /USART1_TX.
+Add net unconnected-(U1-PA3-Pad13).
+Connected U1 pin 13 to unconnected-(U1-PA3-Pad13).
+Add net unconnected-(U1-PC15-Pad4).
+Connected U1 pin 4 to unconnected-(U1-PC15-Pad4).
+Connected U1 pin 48 to +3.3V.
+Connected U1 pin 9 to +3.3VA.
+Add net unconnected-(U1-PA2-Pad12).
+Connected U1 pin 12 to unconnected-(U1-PA2-Pad12).
+Add net unconnected-(U1-PB14-Pad27).
+Connected U1 pin 27 to unconnected-(U1-PB14-Pad27).
+Connected U1 pin 44 to /BOOT0.
+Connected U1 pin 22 to /I2C2_STA.
+Connected U1 pin 37 to /SWCLK.
+Add net unconnected-(U1-PB12-Pad25).
+Connected U1 pin 25 to unconnected-(U1-PB12-Pad25).
+Connected U1 pin 7 to /NRST.
+Connected U1 pin 47 to GND.
+Connected U1 pin 36 to +3.3V.
+Connected U1 pin 23 to GND.
+Add net unconnected-(U1-PB1-Pad19).
+Connected U1 pin 19 to unconnected-(U1-PB1-Pad19).
+Connected U1 pin 5 to /HSE_IN.
+Add net unconnected-(U1-PC13-Pad2).
+Connected U1 pin 2 to unconnected-(U1-PC13-Pad2).
+Add net unconnected-(U1-PB5-Pad41).
+Connected U1 pin 41 to unconnected-(U1-PB5-Pad41).
+Add net unconnected-(U1-PB8-Pad45).
+Connected U1 pin 45 to unconnected-(U1-PB8-Pad45).
+Add net unconnected-(U1-PA10-Pad31).
+Connected U1 pin 31 to unconnected-(U1-PA10-Pad31).
+Connected U1 pin 35 to GND.
+Connected U1 pin 1 to +3.3V.
+Add net unconnected-(U1-PA0-Pad10).
+Connected U1 pin 10 to unconnected-(U1-PA0-Pad10).
+Connected U1 pin 34 to /SDIO.
+Connected U1 pin 43 to /USART1_RX.
+Connected U1 pin 33 to /USB_D+.
+Add net unconnected-(U1-PB4-Pad40).
+Connected U1 pin 40 to unconnected-(U1-PB4-Pad40).
+Add net unconnected-(U1-PA8-Pad29).
+Connected U1 pin 29 to unconnected-(U1-PA8-Pad29).
+Add net unconnected-(U1-PC14-Pad3).
+Connected U1 pin 3 to unconnected-(U1-PC14-Pad3).
+Connected U1 pin 8 to GND.
+Connected U1 pin 32 to /USB_D-.
+Add net unconnected-(U1-PB9-Pad46).
+Connected U1 pin 46 to unconnected-(U1-PB9-Pad46).
+Add net unconnected-(U1-PA6-Pad16).
+Connected U1 pin 16 to unconnected-(U1-PA6-Pad16).
+Updated U1 sheetname to '/'.
+Connected U1 pin 26 to unconnected-(U1-PB13-Pad26).
+Add net unconnected-(U1-PA9-Pad30).
+Connected U1 pin 30 to unconnected-(U1-PA9-Pad30).
+Add net unconnected-(U1-PA15-Pad38).
+Connected U1 pin 38 to unconnected-(U1-PA15-Pad38).
+Add net unconnected-(U1-PB3-Pad39).
+Connected U1 pin 39 to unconnected-(U1-PB3-Pad39).
+Add net unconnected-(U1-PA7-Pad17).
+Connected U1 pin 17 to unconnected-(U1-PA7-Pad17).
+Add net unconnected-(U1-PB15-Pad28).
+Connected U1 pin 28 to unconnected-(U1-PB15-Pad28).
+Add net unconnected-(U1-PB0-Pad18).
+Connected U1 pin 18 to unconnected-(U1-PB0-Pad18).
+Connected U1 pin 6 to /HSE_OUT.
+Connected U1 pin 21 to /I2C2_STL.
+Add net unconnected-(U1-PA1-Pad11).
+Connected U1 pin 11 to unconnected-(U1-PA1-Pad11).
+Add net unconnected-(U1-PB2-Pad20).
+Connected U1 pin 20 to unconnected-(U1-PB2-Pad20).
+Add net unconnected-(U1-PA4-Pad14).
+Connected U1 pin 14 to unconnected-(U1-PA4-Pad14).
+Add net unconnected-(U1-PA5-Pad15).
+Connected U1 pin 15 to unconnected-(U1-PA5-Pad15).
+Connected U1 pin 24 to +3.3V.
+Add net GND.
+Added U3 (footprint 'Package_TO_SOT_SMD:SOT-223-3_TabPin2').
+Changed REF** reference designator to U3.
+Changed U3 value from SOT-223-3_TabPin2 to AMS1117-3.3.
+Updated U3 symbol association from  to /7bc28d77-3974-47d9-9ce5-04835e68de18.
+Updated U3 fields.
+Updated U3 sheetname to '/'.
+Updated U3 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated U3 footprint filters to 'SOT?223*TabPin2*'.
+Connected U3 pin 3 to VBUS.
+Connected U3 pin 2 to +3.3V.
+Connected U3 pin 2 to +3.3V.
+Connected U3 pin 1 to GND.
+Connected C1 pin 2 to GND.
+Added Y1 (footprint 'Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm').
+Changed REF** reference designator to Y1.
+Changed Y1 value from Crystal_SMD_3225-4Pin_3.2x2.5mm to 16MHz.
+Updated Y1 symbol association from  to /e0b37d5f-6477-46f5-97af-10518dc38cf0.
+Updated Y1 fields.
+Updated Y1 sheetname to '/'.
+Updated Y1 sheetfile to 'KiCad_Tutorial.kicad_sch'.
+Updated Y1 footprint filters to 'Crystal*'.
+Connected Y1 pin 2 to GND.
+Connected Y1 pin 1 to /HSE_IN.
+Connected Y1 pin 4 to GND.
+Connected Y1 pin 3 to /HSE_OUT.
+
+
+Add net unconnected-(U1-PB13-Pad26).
+
+
+Info: Total warnings: 0, errors: 0.
