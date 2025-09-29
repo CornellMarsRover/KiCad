@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(sheet
 		(at 88.9 38.1)
-		(size 38.1 50.8)
+		(size 44.45 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "STM32g474.kicad_sch"
-			(at 88.9 89.4846 0)
+			(at 88.9 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,7 +49,7 @@
 	)
 	(sheet
 		(at 38.1 38.1)
-		(size 38.1 50.8)
+		(size 44.45 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "USB_Power.kicad_sch"
-			(at 38.1 89.4846 0)
+			(at 38.1 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -91,7 +91,7 @@
 	)
 	(sheet
 		(at 139.7 38.1)
-		(size 38.1 50.8)
+		(size 44.45 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -115,7 +115,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN-FD.kicad_sch"
-			(at 139.7 89.4846 0)
+			(at 139.7 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -133,7 +133,7 @@
 	)
 	(sheet
 		(at 190.5 38.1)
-		(size 38.1 50.8)
+		(size 44.45 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -157,7 +157,7 @@
 			)
 		)
 		(property "Sheetfile" "LED_Debug.kicad_sch"
-			(at 190.5 89.4846 0)
+			(at 190.5 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
