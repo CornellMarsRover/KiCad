@@ -1691,7 +1691,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "061cdabc-89da-4fe0-ba37-cafe6c5c8edb")
+			(uuid "061cdabc-89da-4fe0-ba37-cafe6c5c8edc")
 		)
 		(instances
 			(project ""
@@ -2128,7 +2128,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "061cdabc-89da-4fe0-ba37-cafe6c5c8edb")
+			(uuid "061cdabc-89da-4fe0-ba37-cafe6c5c8edd")
 		)
 		(instances
 			(project ""

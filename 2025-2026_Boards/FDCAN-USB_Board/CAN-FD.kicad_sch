@@ -2173,13 +2173,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "92099b1f-f63b-4396-931e-7a0425f942a6")
+			(uuid "92099b1f-f63b-4396-931e-7a0425f942a7")
 		)
 		(pin "1"
-			(uuid "70bcf0bf-75d8-431b-9d88-abfab9bac32d")
+			(uuid "70bcf0bf-75d8-431b-9d88-abfab9bac32e")
 		)
 		(pin "3"
-			(uuid "d6c81610-bb85-47ad-a8ee-a7e4875b06d7")
+			(uuid "d6c81610-bb85-47ad-a8ee-a7e4875b06d8")
 		)
 		(instances
 			(project ""
