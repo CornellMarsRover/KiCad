@@ -2533,6 +2533,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3472,6 +3555,30 @@
 		)
 		(uuid "493b69e0-b55a-4316-8399-2793ec7c3f4c")
 	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 36.576 94.996 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "4d6102c8-3c58-43db-82a4-a00d4b6a5349")
+	)
+	(text "M2"
+		(exclude_from_sim no)
+		(at 29.972 132.588 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "616d2d59-1207-48d6-bea5-cdd8b1216c13")
+	)
 	(text "Microcontroller (and USB)"
 		(exclude_from_sim no)
 		(at 101.6 27.432 0)
@@ -3639,12 +3746,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e4ee10d-9e6a-47f8-9f67-354beea3b645")
-	)
-	(junction
-		(at 146.05 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fcc69ce-5a66-4f7c-ae4e-8335b0a256c8")
 	)
 	(junction
 		(at 218.44 53.34)
@@ -3897,6 +3998,16 @@
 			(type default)
 		)
 		(uuid "0a10fa8f-6126-4f95-a7f9-2653c918494d")
+	)
+	(polyline
+		(pts
+			(xy 27.94 96.52) (xy 29.21 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c1121a1-e335-47fe-9977-ebbed0560c61")
 	)
 	(wire
 		(pts
@@ -4168,6 +4279,16 @@
 		)
 		(uuid "44c6133f-b475-472e-b9e0-aedcec1c4573")
 	)
+	(polyline
+		(pts
+			(xy 54.61 130.81) (xy 27.94 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4684cd32-3366-4fa0-85a0-84a4a43ddbb1")
+	)
 	(wire
 		(pts
 			(xy 200.66 88.9) (xy 231.14 88.9)
@@ -4337,6 +4458,26 @@
 			(type default)
 		)
 		(uuid "6731ed86-1d3b-4958-9e33-09ffa89b4f52")
+	)
+	(polyline
+		(pts
+			(xy 54.61 96.52) (xy 54.61 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a0d0f2-a19e-4503-95a5-c8372a5b6477")
+	)
+	(polyline
+		(pts
+			(xy 27.94 130.81) (xy 27.94 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a5d68ab-ad6b-4787-89e0-fd7e3f44ffe7")
 	)
 	(wire
 		(pts
@@ -4537,16 +4678,6 @@
 			(type default)
 		)
 		(uuid "8778ad0a-1096-4688-b44b-1f40a9d5fe9f")
-	)
-	(wire
-		(pts
-			(xy 143.51 66.04) (xy 146.05 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8782565a-7c9a-4e93-8d97-bc0863b4e3a7")
 	)
 	(wire
 		(pts
@@ -4877,6 +5008,16 @@
 			(type default)
 		)
 		(uuid "b1ec3ff8-4266-4b35-96aa-2ab613457939")
+	)
+	(polyline
+		(pts
+			(xy 29.21 96.52) (xy 54.61 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3d5ca0a-be30-40df-9ce0-f370134bac65")
 	)
 	(wire
 		(pts
@@ -5634,6 +5775,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 35.56 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c8c3f95-6da4-42c9-b34d-ebe368c94a7b")
+		(property "Reference" "H3"
+			(at 38.1 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 38.1 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 35.56 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 35.56 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Mars Rover Onboarding"
+				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 242.57 54.61 0)
 		(unit 1)
@@ -5707,7 +5912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0cf1c197-3ed1-4b54-9478-78331daf0c4a")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 145.034 46.482 0)
 			(effects
 				(font
@@ -5761,7 +5966,7 @@
 		(instances
 			(project "Mars Rover Onboarding"
 				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5911,7 +6116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b97d978-63d6-4c59-bba9-c738c9421fac")
-		(property "Reference" "C2"
+		(property "Reference" "C6"
 			(at 155.194 46.482 0)
 			(effects
 				(font
@@ -5965,7 +6170,7 @@
 		(instances
 			(project "Mars Rover Onboarding"
 				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
-					(reference "C2")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5980,7 +6185,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24591e14-5380-4527-8f34-af72a169e184")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 156.21 63.754 90)
 			(effects
 				(font
@@ -6032,7 +6237,7 @@
 		(instances
 			(project ""
 				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6048,7 +6253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30b5b83d-caa2-4bb5-bb97-8815b0c4037f")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 71.12 45.7199 0)
 			(effects
 				(font
@@ -6102,7 +6307,71 @@
 		(instances
 			(project ""
 				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
-					(reference "R3")
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 35.56 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37a5965e-320b-48f5-a4ca-d4d2e74eadc5")
+		(property "Reference" "H2"
+			(at 38.1 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 38.1 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 35.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 35.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Mars Rover Onboarding"
+				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -6444,7 +6713,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "508086d6-653f-441b-ab55-0f204e40b965")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 221.234 46.482 0)
 			(effects
 				(font
@@ -6498,7 +6767,7 @@
 		(instances
 			(project "Mars Rover Onboarding"
 				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6513,7 +6782,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53ffc85a-341f-49b8-8ef6-19761076b943")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 245.364 46.482 0)
 			(effects
 				(font
@@ -6567,7 +6836,7 @@
 		(instances
 			(project "Mars Rover Onboarding"
 				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6848,6 +7117,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 35.56 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69aca941-a8f4-4768-ba7d-4d2517510220")
+		(property "Reference" "H4"
+			(at 38.1 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 38.1 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 35.56 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 35.56 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Mars Rover Onboarding"
+				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 182.88 138.43 0)
 		(unit 1)
@@ -7053,7 +7386,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7de630e1-33f7-43a3-be5d-588b48b87113")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 116.078 91.694 0)
 			(effects
 				(font
@@ -7107,7 +7440,7 @@
 		(instances
 			(project "Mars Rover Onboarding"
 				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7265,7 +7598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80173b75-209a-4df1-b320-77d9eec53682")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 223.52 82.5499 0)
 			(effects
 				(font
@@ -7319,7 +7652,7 @@
 		(instances
 			(project ""
 				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7350,7 +7683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled"
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
 			(at 140.97 66.04 0)
 			(effects
 				(font
@@ -7404,7 +7737,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "859c1fab-3f7f-4f05-a372-6c50dcce7e26")
-		(property "Reference" "C1"
+		(property "Reference" "C7"
 			(at 165.354 46.482 0)
 			(effects
 				(font
@@ -7458,7 +7791,7 @@
 		(instances
 			(project ""
 				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
-					(reference "C1")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7473,7 +7806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87cb639f-70e7-4309-9b19-8bfe9256a8ce")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 209.804 46.482 0)
 			(effects
 				(font
@@ -7527,7 +7860,7 @@
 		(instances
 			(project "Mars Rover Onboarding"
 				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
-					(reference "C6")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7673,7 +8006,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94425499-89da-4fa2-bb19-451ec4b77a87")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 195.58 54.61 0)
 			(effects
 				(font
@@ -7866,7 +8199,7 @@
 		(instances
 			(project ""
 				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7881,7 +8214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9eeaf497-f816-4b72-8618-76442a514295")
-		(property "Reference" "C13"
+		(property "Reference" "C2"
 			(at 56.134 42.672 0)
 			(effects
 				(font
@@ -7935,7 +8268,7 @@
 		(instances
 			(project "Mars Rover Onboarding"
 				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
-					(reference "C13")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8018,7 +8351,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7ab4717-45d2-4e31-92b8-6e5a17e66ffb")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 141.732 91.694 0)
 			(effects
 				(font
@@ -8072,7 +8405,7 @@
 		(instances
 			(project "Mars Rover Onboarding"
 				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -8285,7 +8618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5a9700f-6bbf-4afa-8fa2-998831461876")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 40.64 33.02 0)
 			(effects
 				(font
@@ -8340,7 +8673,7 @@
 		(instances
 			(project ""
 				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8355,7 +8688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b872f3a2-1152-4ccb-b7df-c0829bcf22d9")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 123.444 65.532 0)
 			(effects
 				(font
@@ -8409,7 +8742,7 @@
 		(instances
 			(project "Mars Rover Onboarding"
 				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -8490,7 +8823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9273bed-1fe9-4e37-806f-2b44027e920d")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 230.124 109.982 0)
 			(effects
 				(font
@@ -8548,7 +8881,7 @@
 		(instances
 			(project ""
 				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8632,7 +8965,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c52a1202-184c-4457-a008-1687312e4b13")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 110.236 116.332 0)
 			(effects
 				(font
@@ -8690,7 +9023,7 @@
 		(instances
 			(project "Mars Rover Onboarding"
 				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8705,7 +9038,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca37d1fa-f37f-4986-9749-0398eaf8a52a")
-		(property "Reference" "C12"
+		(property "Reference" "C1"
 			(at 29.464 42.672 0)
 			(effects
 				(font
@@ -8759,7 +9092,7 @@
 		(instances
 			(project "Mars Rover Onboarding"
 				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
-					(reference "C12")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -9112,7 +9445,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1b2a50c-5967-4b2d-9c39-fc04413025c9")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 124.714 46.482 0)
 			(effects
 				(font
@@ -9166,7 +9499,7 @@
 		(instances
 			(project "Mars Rover Onboarding"
 				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9232,6 +9565,70 @@
 			(project "Mars Rover Onboarding"
 				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 35.56 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb9b0801-b246-4b87-92e5-6da797275740")
+		(property "Reference" "H1"
+			(at 38.1 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 38.1 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 35.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 35.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/c4935fc3-458e-446d-9144-07bec842b57c"
+					(reference "H1")
 					(unit 1)
 				)
 			)
