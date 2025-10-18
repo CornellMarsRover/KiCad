@@ -3584,6 +3584,17 @@
 		)
 		(uuid "4cdf0de3-f919-4454-8ac7-f35ed8dab2ce")
 	)
+	(text "FAN SYSTEMS \nAND POWER SUPPLY\n"
+		(exclude_from_sim no)
+		(at 82.296 172.974 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "4db0dd88-e548-4283-886c-4b0da3c00b06")
+	)
 	(text "1 x 100nF Capacitor per Pin"
 		(exclude_from_sim no)
 		(at 109.982 90.424 0)
@@ -7846,7 +7857,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "10u"
 			(at 116.84 21.59 90)
 			(effects
 				(font
