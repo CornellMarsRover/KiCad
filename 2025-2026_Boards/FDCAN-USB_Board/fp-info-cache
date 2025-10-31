@@ -1,4 +1,4 @@
-26652070849048264
+26653836064426929
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58099,6 +58099,13 @@ SOT95P280X145-6N
 0
 6
 6
+Cornell_Mars_Rover
+USB4110-GF-A_GCT
+
+USB4110-GF-A 
+0
+16
+16
 Crystal
 Crystal_AT310_D3.0mm_L10.0mm_Horizontal
 AT310, Crystal, with length tolerance, length 10.5mm, width 3.0mm, THT, https://www.cinetech.com.tw/upload/2011/04/20110401165201.pdf
