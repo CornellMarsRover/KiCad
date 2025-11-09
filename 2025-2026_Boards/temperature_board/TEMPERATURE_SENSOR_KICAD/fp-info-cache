@@ -1,4 +1,25 @@
-26634610375616589
+26639898508849428
+AdditionalFootprintLibrary
+DBZ0003A-IPC_A
+
+TMP235A4DBZR 
+0
+3
+3
+AdditionalFootprintLibrary
+SOT8_DRL_TEX
+
+TPS62932DRLR 
+0
+8
+8
+AdditionalFootprintLibrary
+SOT8_DRL_TEX-M
+
+TPS62932DRLR 
+0
+8
+8
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

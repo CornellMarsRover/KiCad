@@ -613,6 +613,10 @@
     [
       "0800d6d6-19ae-426e-ad65-5e021a8f0397",
       "Root"
+    ],
+    [
+      "d9674b01-514e-4702-b9f2-ff204f8a7d32",
+      "Fan_Pins"
     ]
   ],
   "text_variables": {}
