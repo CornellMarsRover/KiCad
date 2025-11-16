@@ -1691,173 +1691,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4148WT"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148WT"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-523"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?523*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4148WT_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148WT_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCU_ST_STM32G4:STM32G431CBTx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4183,26 +4016,6 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 13.97 92.71 0)
-		(size 76.2 60.96)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "25047e7a-f082-44bf-8b7a-2c74fd221968")
-	)
-	(text_box ""
-		(exclude_from_sim no)
 		(at 229.235 70.485 0)
 		(size 51.435 29.845)
 		(margins 0.9525 0.9525 0.9525 0.9525)
@@ -4306,12 +4119,6 @@
 		(uuid "07051e1b-331f-459c-8ebe-7f4ff9622364")
 	)
 	(junction
-		(at 41.91 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08d20d08-f2d0-47f1-ae50-b334686719e2")
-	)
-	(junction
 		(at 247.65 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4328,12 +4135,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13d493ca-e0eb-478f-887f-48f848c54a3e")
-	)
-	(junction
-		(at 67.31 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15269f57-b183-45b4-a9c2-b0b918a673d0")
 	)
 	(junction
 		(at 17.78 34.29)
@@ -4360,12 +4161,6 @@
 		(uuid "187f4b00-dcdd-44a1-b948-78937182955a")
 	)
 	(junction
-		(at 80.01 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a285595-8136-45df-9e35-af55205d5ac1")
-	)
-	(junction
 		(at 144.78 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4382,24 +4177,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f745b16-c889-4266-911d-dc7d4cdc87f0")
-	)
-	(junction
-		(at 54.61 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24a1fc46-9aa9-4628-81ed-c3502632d7af")
-	)
-	(junction
-		(at 69.85 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a58b897-10c1-4e65-ba9b-f4c398ea1ca0")
-	)
-	(junction
-		(at 64.77 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c394439-f682-4140-bc66-232f6039a45c")
 	)
 	(junction
 		(at 17.78 46.99)
@@ -4420,28 +4197,10 @@
 		(uuid "35c1e04a-cdfb-46c0-aa37-3244c6b25509")
 	)
 	(junction
-		(at 69.85 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "368fd04d-3b15-4349-8ba9-a6cdcad73974")
-	)
-	(junction
-		(at 41.91 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "372e10de-51b2-4a6b-b240-78b9bb41eb67")
-	)
-	(junction
 		(at 82.55 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38c20b87-a91e-4324-ae4d-7a033e53fad7")
-	)
-	(junction
-		(at 72.39 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "397deb0d-2a5d-4835-95fe-7c74684b8968")
 	)
 	(junction
 		(at 232.41 135.89)
@@ -4450,28 +4209,10 @@
 		(uuid "3c0e2c70-e63b-45df-ba4a-0838ce831003")
 	)
 	(junction
-		(at 44.45 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c1c9003-0cf7-4a4e-b59d-0cdfb4cd72a9")
-	)
-	(junction
 		(at 109.22 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c3ef072-6582-448a-a576-dd0adc696eff")
-	)
-	(junction
-		(at 52.07 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e06d6cf-2ffb-4a6d-b903-986edc29ebc2")
-	)
-	(junction
-		(at 39.37 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f4bf3b0-f0eb-41c0-a21b-8b51f4e74f59")
 	)
 	(junction
 		(at 104.14 74.93)
@@ -4504,28 +4245,10 @@
 		(uuid "595fc58d-6030-49d3-ac0a-6ca5d755182b")
 	)
 	(junction
-		(at 41.91 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ade37c7-f3f9-42ea-9d6a-9beca6e8eaa3")
-	)
-	(junction
 		(at 255.27 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c89c8e4-7d6d-43b4-bd48-d3d72b2f1b0a")
-	)
-	(junction
-		(at 49.53 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5dff1441-6690-43d9-978c-712401f8f02a")
-	)
-	(junction
-		(at 69.85 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f60af48-5e2d-4511-bcd1-322884b3799e")
 	)
 	(junction
 		(at 264.16 120.65)
@@ -4534,34 +4257,10 @@
 		(uuid "61011cdd-3919-4146-81d8-85ee711eff0e")
 	)
 	(junction
-		(at 46.99 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64acb6cc-9c26-4855-9153-f191ca2ee709")
-	)
-	(junction
-		(at 46.99 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65e0e34a-89f7-4b58-be32-b9591493aada")
-	)
-	(junction
 		(at 71.12 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68542efe-77cc-4619-a9df-343a13743d1c")
-	)
-	(junction
-		(at 80.01 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a267451-029e-4142-ac81-69d80156af5a")
-	)
-	(junction
-		(at 64.77 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a8ada43-8a65-4220-ac70-4fe4b2380dbd")
 	)
 	(junction
 		(at 82.55 82.55)
@@ -4570,52 +4269,10 @@
 		(uuid "6baa3746-e4d7-4a48-8cd5-475770ebd0e5")
 	)
 	(junction
-		(at 39.37 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71bff9ae-1115-45ab-b681-8fff9bb4cbe8")
-	)
-	(junction
-		(at 57.15 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71f29513-79a5-4ace-8a76-ae8caebae86b")
-	)
-	(junction
 		(at 232.41 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73a873d7-ebee-4981-971c-51eab355d68b")
-	)
-	(junction
-		(at 82.55 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76550bdd-4758-47fa-a10c-f91f61a6501a")
-	)
-	(junction
-		(at 74.93 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76e01a1c-55b3-45d0-9b96-b05631f8bd97")
-	)
-	(junction
-		(at 82.55 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78ed3ea3-ee31-4cc5-a2a7-3c631139b3f4")
-	)
-	(junction
-		(at 44.45 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79653848-0d68-405c-9ef1-f414d24a848e")
-	)
-	(junction
-		(at 74.93 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d9b4ffb-081a-41ea-a2a5-5f4077617251")
 	)
 	(junction
 		(at 261.62 57.15)
@@ -4628,24 +4285,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "835ce8f4-a0ce-48e9-9df6-57e787457eb2")
-	)
-	(junction
-		(at 67.31 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "848dcf9a-3daa-4183-a4a6-24d0af1aa1e4")
-	)
-	(junction
-		(at 77.47 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86c88c41-3f8f-4ab8-b714-d0748f718141")
-	)
-	(junction
-		(at 54.61 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89bcdad5-ddad-4511-ab03-3c8ea5a79fac")
 	)
 	(junction
 		(at 261.62 82.55)
@@ -4666,18 +4305,6 @@
 		(uuid "8e9aa2c0-448e-4fdb-b359-0aad29d065b3")
 	)
 	(junction
-		(at 80.01 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "944702dc-e49b-4d44-adad-546758253566")
-	)
-	(junction
-		(at 39.37 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d23916e-c775-48fa-a6bd-4aced45fe107")
-	)
-	(junction
 		(at 114.3 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4696,40 +4323,10 @@
 		(uuid "a53a4a16-77d2-46eb-98a2-9010d70e079a")
 	)
 	(junction
-		(at 74.93 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aaec657e-6697-4924-95eb-af81b973e6e8")
-	)
-	(junction
-		(at 46.99 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b09f5660-65b4-44a2-bfb0-d25e3dc60a49")
-	)
-	(junction
-		(at 82.55 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3e3e0b3-547b-42c7-9187-8a2873ed523b")
-	)
-	(junction
 		(at 118.11 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b514e0c9-6c35-41ce-85f4-b360065b3278")
-	)
-	(junction
-		(at 77.47 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b550b6c9-c259-46a9-b63e-686c704e8f78")
-	)
-	(junction
-		(at 57.15 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b59141be-8a64-418e-920c-712516989b71")
 	)
 	(junction
 		(at 256.54 128.27)
@@ -4744,22 +4341,10 @@
 		(uuid "bcd197a0-710b-4794-af50-2485cc2cc9cd")
 	)
 	(junction
-		(at 77.47 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd1863de-5226-404c-ae4a-68f813b09b16")
-	)
-	(junction
 		(at 196.85 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bde0c09e-0445-45b3-a4cd-081fffeae2c5")
-	)
-	(junction
-		(at 57.15 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be4d11bd-33e8-45e5-abc3-90374876e78d")
 	)
 	(junction
 		(at 109.22 165.1)
@@ -4792,30 +4377,6 @@
 		(uuid "cc6df5c0-2ff7-47e4-be37-6f82b0231e36")
 	)
 	(junction
-		(at 52.07 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cffcb12d-fd1b-4ad4-a121-bfa86ae4c489")
-	)
-	(junction
-		(at 72.39 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d15ef5b8-022d-4651-b8d8-0eb940e31f75")
-	)
-	(junction
-		(at 52.07 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2ae2a69-6346-47f7-888c-514e25c9fe58")
-	)
-	(junction
-		(at 64.77 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9cf53df-cff1-49fc-84aa-26ae78615d69")
-	)
-	(junction
 		(at 264.16 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4828,22 +4389,10 @@
 		(uuid "dc495a41-e5d7-4fdb-a38d-74961bd3bdc4")
 	)
 	(junction
-		(at 44.45 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2a0932d-7276-4a79-b5d6-4b0459502110")
-	)
-	(junction
 		(at 255.27 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e50854b1-b001-48b2-855a-972782067174")
-	)
-	(junction
-		(at 72.39 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e60fc7f9-8ca8-4bb6-b9af-b009ee3e447a")
 	)
 	(junction
 		(at 237.49 31.75)
@@ -4858,34 +4407,10 @@
 		(uuid "ec4d64c6-1682-4495-b441-70cd8b38c71d")
 	)
 	(junction
-		(at 54.61 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef484080-32b1-4233-b450-66a64e055a1a")
-	)
-	(junction
 		(at 167.64 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5a9c3c4-2210-4dc3-99c9-3e3c91327fc7")
-	)
-	(junction
-		(at 49.53 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd97d058-4340-4379-9194-500e24c90960")
-	)
-	(junction
-		(at 49.53 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "feaf8de6-1062-4211-a31c-f2ce5ecfb2de")
-	)
-	(junction
-		(at 67.31 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff5192b8-3d61-4bce-ad4d-836ea3afea7e")
 	)
 	(no_connect
 		(at 180.34 36.83)
@@ -4915,43 +4440,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 118.11) (xy 91.44 118.11)
+			(xy 76.2 182.88) (xy 127 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "005c8391-127c-4fe2-bd3f-90ae8abe1cac")
-	)
-	(wire
-		(pts
-			(xy 57.15 128.27) (xy 57.15 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00c309c2-9567-4d9d-af69-a12e2b90423d")
-	)
-	(wire
-		(pts
-			(xy 64.77 151.13) (xy 67.31 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0176c408-2921-4970-92a7-4705ea97a561")
-	)
-	(wire
-		(pts
-			(xy 82.55 93.98) (xy 82.55 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01e3756b-acce-4e0c-8e73-560a0a89e4d1")
+		(uuid "03168b6f-36aa-4ab3-b60b-7edad257916a")
 	)
 	(wire
 		(pts
@@ -4985,23 +4480,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 106.68) (xy 72.39 130.81)
+			(xy 85.09 180.34) (xy 130.81 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08c12c2b-217b-45ab-b584-2b6274b9c9f8")
-	)
-	(wire
-		(pts
-			(xy 72.39 93.98) (xy 72.39 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09085ea5-87c2-449b-b9dc-bf10dff5d795")
+		(uuid "0644dc59-36d8-462e-b34a-c6271ab4c226")
 	)
 	(wire
 		(pts
@@ -5035,53 +4520,33 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 128.27) (xy 91.44 128.27)
+			(xy 86.36 173.99) (xy 128.27 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c2f581b-3a69-4f2a-9ffc-d31b602f89d7")
+		(uuid "0d91dbcc-2965-4395-bc5c-a330279dcacb")
 	)
 	(wire
 		(pts
-			(xy 77.47 93.98) (xy 80.01 93.98)
+			(xy 77.47 138.43) (xy 77.47 187.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d35dbd0-9de1-4581-8af9-bbbf74615b8e")
+		(uuid "0e5a70d1-fea6-44c0-b958-1005c9b6ff8f")
 	)
 	(wire
 		(pts
-			(xy 49.53 93.98) (xy 52.07 93.98)
+			(xy 128.27 118.11) (xy 124.46 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1094a1cb-9817-4e26-9bd8-ed28fd13c011")
-	)
-	(wire
-		(pts
-			(xy 57.15 151.13) (xy 60.96 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10e40246-e31b-4688-86d7-b7751e9a82e4")
-	)
-	(wire
-		(pts
-			(xy 46.99 130.81) (xy 46.99 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11d72bb4-b2f9-4533-a3d7-0155e3f92df2")
+		(uuid "10db1f7e-df27-4d37-b920-7acc283a07cf")
 	)
 	(wire
 		(pts
@@ -5105,16 +4570,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 110.49) (xy 52.07 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "140f846f-31d2-46a0-859d-58f0e595d5f6")
-	)
-	(wire
-		(pts
 			(xy 204.47 129.54) (xy 204.47 118.11)
 		)
 		(stroke
@@ -5125,13 +4580,33 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 144.78) (xy 44.45 151.13)
+			(xy 88.9 128.27) (xy 88.9 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "168e68d5-e636-4b17-9558-3e2f4c083eeb")
+		(uuid "150df45a-d201-4672-9fb2-0fba512b333d")
+	)
+	(wire
+		(pts
+			(xy 133.35 185.42) (xy 133.35 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15863750-260c-4712-a455-068fadd6697b")
+	)
+	(wire
+		(pts
+			(xy 72.39 143.51) (xy 86.36 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "173c0ade-ae5d-47a6-9af4-50ae27c54bee")
 	)
 	(wire
 		(pts
@@ -5145,6 +4620,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 140.97) (xy 85.09 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "184cd5d3-a79f-43bc-b230-e858ac01c86c")
+	)
+	(wire
+		(pts
 			(xy 109.22 161.29) (xy 109.22 165.1)
 		)
 		(stroke
@@ -5152,16 +4637,6 @@
 			(type default)
 		)
 		(uuid "18677048-4d21-452b-bbe5-f198a7eadaef")
-	)
-	(wire
-		(pts
-			(xy 41.91 151.13) (xy 44.45 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18c2bc19-c58c-4742-bb2b-3930d9916c4e")
 	)
 	(wire
 		(pts
@@ -5195,26 +4670,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 92.71) (xy 91.44 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ac1c50b-0a73-4501-be78-57d7323805e7")
-	)
-	(wire
-		(pts
-			(xy 57.15 106.68) (xy 57.15 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b174c4f-6aa7-4574-85ce-4e03cfed5608")
-	)
-	(wire
-		(pts
 			(xy 264.16 130.81) (xy 264.16 135.89)
 		)
 		(stroke
@@ -5242,16 +4697,6 @@
 			(type default)
 		)
 		(uuid "209abf3c-11b0-49f4-bbbc-e9e6b7c570ac")
-	)
-	(wire
-		(pts
-			(xy 44.45 125.73) (xy 69.85 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2299215e-8bc7-438f-8121-0f9c5f34dc4b")
 	)
 	(wire
 		(pts
@@ -5285,36 +4730,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 93.98) (xy 39.37 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25544dc8-34eb-4323-8488-dbe51edd14e6")
-	)
-	(wire
-		(pts
-			(xy 82.55 93.98) (xy 87.63 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2630c70e-8c7a-41e3-ab3d-ce931f0d5eff")
-	)
-	(wire
-		(pts
-			(xy 49.53 133.35) (xy 49.53 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "269b761e-f862-4b50-ad6a-ed6a3ebcee14")
-	)
-	(wire
-		(pts
 			(xy 118.11 31.75) (xy 118.11 35.56)
 		)
 		(stroke
@@ -5335,13 +4750,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 130.81) (xy 72.39 137.16)
+			(xy 138.43 110.49) (xy 124.46 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2893e6a1-d147-4661-9423-3045944b1b1d")
+		(uuid "28e022dd-a2e1-4c95-9aee-35aa6982b8c4")
 	)
 	(wire
 		(pts
@@ -5362,6 +4777,16 @@
 			(type default)
 		)
 		(uuid "29895b73-9f31-4746-b46d-9f83f72ab342")
+	)
+	(wire
+		(pts
+			(xy 133.35 120.65) (xy 124.46 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f8f398-f9fd-4016-b129-c4ec3c8583f7")
 	)
 	(wire
 		(pts
@@ -5395,23 +4820,13 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 110.49) (xy 52.07 110.49)
+			(xy 72.39 148.59) (xy 76.2 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31a13234-3aac-4bd5-a8ac-eeea144bb48e")
-	)
-	(wire
-		(pts
-			(xy 64.77 144.78) (xy 64.77 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "327603fe-6abc-4423-a18b-7c17809a02f8")
+		(uuid "2fe2aed4-fad8-4cf1-b8f5-fcfc572c9a51")
 	)
 	(wire
 		(pts
@@ -5422,26 +4837,6 @@
 			(type default)
 		)
 		(uuid "34c1391a-102a-4272-8eb6-d8d46544c59a")
-	)
-	(wire
-		(pts
-			(xy 39.37 151.13) (xy 41.91 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "358a5f71-7d8a-4fd6-9f80-8ccf944207e8")
-	)
-	(wire
-		(pts
-			(xy 52.07 93.98) (xy 52.07 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35e8849a-2d19-49d2-b99f-320f11f32270")
 	)
 	(wire
 		(pts
@@ -5465,16 +4860,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 113.03) (xy 62.23 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38b750c0-2220-42b7-ac85-dab3bc2a8d1f")
-	)
-	(wire
-		(pts
 			(xy 196.85 118.11) (xy 196.85 101.6)
 		)
 		(stroke
@@ -5495,6 +4880,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 151.13) (xy 91.44 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b69bb51-3b5c-44db-b6da-f59c1de7b991")
+	)
+	(wire
+		(pts
 			(xy 59.69 82.55) (xy 71.12 82.55)
 		)
 		(stroke
@@ -5505,6 +4900,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 133.35) (xy 83.82 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c7c4ce1-256e-4ffe-9147-1abcd3101be9")
+	)
+	(wire
+		(pts
 			(xy 48.26 82.55) (xy 59.69 82.55)
 		)
 		(stroke
@@ -5512,46 +4917,6 @@
 			(type default)
 		)
 		(uuid "3c8edf0f-9b36-4857-bd3b-658aebc1f87c")
-	)
-	(wire
-		(pts
-			(xy 52.07 151.13) (xy 54.61 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d3396fd-afd5-4600-8bc8-71dce9cbce4f")
-	)
-	(wire
-		(pts
-			(xy 72.39 144.78) (xy 72.39 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3da02225-6c42-4642-8968-440c2c55ce29")
-	)
-	(wire
-		(pts
-			(xy 69.85 125.73) (xy 69.85 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dc28bed-98b9-404b-9e90-4edb758a8a30")
-	)
-	(wire
-		(pts
-			(xy 82.55 151.13) (xy 91.44 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f5f4c26-5175-4314-8cde-a886f32f1173")
 	)
 	(wire
 		(pts
@@ -5595,6 +4960,36 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 146.05) (xy 74.93 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "450717f8-b05f-4656-af9b-57316afaff12")
+	)
+	(wire
+		(pts
+			(xy 77.47 187.96) (xy 135.89 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "459d2ea5-1712-4193-908d-af849fd4570f")
+	)
+	(wire
+		(pts
+			(xy 83.82 194.31) (xy 140.97 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d4675b-1bf9-4b41-abce-04dc1bf49084")
+	)
+	(wire
+		(pts
 			(xy 109.22 74.93) (xy 111.76 74.93)
 		)
 		(stroke
@@ -5612,26 +5007,6 @@
 			(type default)
 		)
 		(uuid "464f57c0-164c-4bd8-94e2-20c16dc3475c")
-	)
-	(wire
-		(pts
-			(xy 67.31 93.98) (xy 69.85 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4653a604-2f7f-414e-a7c5-67260fd0644a")
-	)
-	(wire
-		(pts
-			(xy 69.85 151.13) (xy 72.39 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "477c0308-b377-4519-bdaa-113ed60a8482")
 	)
 	(wire
 		(pts
@@ -5655,26 +5030,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 107.95) (xy 64.77 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4921c640-f410-4cf1-9149-ad21e3bb2ba9")
-	)
-	(wire
-		(pts
-			(xy 62.23 120.65) (xy 62.23 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "496ee9aa-c281-4d6d-a1c6-2a4f12b953e9")
-	)
-	(wire
-		(pts
 			(xy 111.76 39.37) (xy 111.76 45.72)
 		)
 		(stroke
@@ -5685,53 +5040,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 144.78) (xy 52.07 151.13)
+			(xy 81.28 125.73) (xy 81.28 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a73848c-40e1-4feb-a707-6c39712cc0bb")
-	)
-	(wire
-		(pts
-			(xy 46.99 93.98) (xy 46.99 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b0a682b-c357-479a-8c13-f61d4c20234c")
-	)
-	(wire
-		(pts
-			(xy 25.4 133.35) (xy 49.53 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b56e545-ae3b-4813-a31a-ce0e6d202635")
-	)
-	(wire
-		(pts
-			(xy 46.99 151.13) (xy 49.53 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b90280f-7d1e-4004-9b8e-3de4a2428925")
-	)
-	(wire
-		(pts
-			(xy 41.91 118.11) (xy 67.31 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c2ffe85-3ffe-4fc0-8d6f-7499e70a594c")
+		(uuid "4af4cc13-cc80-47e7-a775-fa508b872b07")
 	)
 	(wire
 		(pts
@@ -5765,16 +5080,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 93.98) (xy 87.63 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e715169-b452-4104-b384-70afc749113a")
-	)
-	(wire
-		(pts
 			(xy 17.78 34.29) (xy 17.78 36.83)
 		)
 		(stroke
@@ -5785,13 +5090,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 93.98) (xy 64.77 93.98)
+			(xy 72.39 128.27) (xy 88.9 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51ad228c-3d4e-49d9-846a-a8663ad2c01d")
+		(uuid "4f4647eb-ffb2-4e44-a715-a485f87a2dad")
 	)
 	(wire
 		(pts
@@ -5805,36 +5110,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 128.27) (xy 82.55 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5451083a-9e9e-4761-adf1-abe613ec3637")
-	)
-	(wire
-		(pts
-			(xy 62.23 151.13) (xy 64.77 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55023c95-3a87-455e-beb4-d8e5141eacda")
-	)
-	(wire
-		(pts
-			(xy 25.4 107.95) (xy 39.37 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "557097ad-311a-4d31-bb24-791ff0d4f92f")
-	)
-	(wire
-		(pts
 			(xy 167.64 81.28) (xy 167.64 90.17)
 		)
 		(stroke
@@ -5845,23 +5120,33 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 118.11) (xy 41.91 137.16)
+			(xy 72.39 130.81) (xy 87.63 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "560c158c-50c6-44d0-8c99-d81f21fd39e8")
+		(uuid "56960c1b-ff0e-45d7-875d-db7e051b2531")
 	)
 	(wire
 		(pts
-			(xy 74.93 106.68) (xy 74.93 133.35)
+			(xy 130.81 115.57) (xy 124.46 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "579adda7-d28d-45b0-8150-1d3902516999")
+		(uuid "5723b1f0-09d4-4b37-8929-c797aded6539")
+	)
+	(wire
+		(pts
+			(xy 90.17 123.19) (xy 90.17 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57852561-ee1e-444b-9299-d4a39316e272")
 	)
 	(wire
 		(pts
@@ -5885,13 +5170,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 93.98) (xy 74.93 93.98)
+			(xy 72.39 135.89) (xy 80.01 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58fc618b-bf5f-4e1d-963b-4debc24c8097")
+		(uuid "59cf0729-1bda-430b-8336-cafe7e20fa31")
 	)
 	(wire
 		(pts
@@ -5905,13 +5190,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 93.98) (xy 80.01 99.06)
+			(xy 85.09 140.97) (xy 85.09 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5cdfda81-89a9-4be3-9500-0ffc369783ae")
+		(uuid "5a4ead18-80ae-4c83-bf99-87372bec2860")
 	)
 	(wire
 		(pts
@@ -5935,23 +5220,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 115.57) (xy 30.48 151.13)
+			(xy 86.36 120.65) (xy 86.36 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f57e492-9def-4176-86af-759f1e282ec9")
-	)
-	(wire
-		(pts
-			(xy 62.23 113.03) (xy 62.23 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60765448-9b2e-4cff-97b3-f20cb78f7b1b")
+		(uuid "60c3638c-b102-4cb0-905a-e21240a5dbc1")
 	)
 	(wire
 		(pts
@@ -5975,6 +5250,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 148.59) (xy 91.44 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64120f02-c940-4c91-9b9e-bd1aa9d62188")
+	)
+	(wire
+		(pts
 			(xy 232.41 82.55) (xy 240.03 82.55)
 		)
 		(stroke
@@ -5985,113 +5270,53 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 93.98) (xy 82.55 93.98)
+			(xy 80.01 191.77) (xy 138.43 191.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66d50725-89c4-4ff8-aa1f-a91f52189020")
+		(uuid "6afadb4e-6162-4810-a120-376c257d89e7")
 	)
 	(wire
 		(pts
-			(xy 44.45 106.68) (xy 44.45 125.73)
+			(xy 140.97 107.95) (xy 124.46 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69b99284-8bd2-425f-ba9d-54230e3bbac4")
+		(uuid "6ecbc2d0-0c3f-41b8-a2f6-cdd00e42497e")
 	)
 	(wire
 		(pts
-			(xy 54.61 106.68) (xy 54.61 123.19)
+			(xy 87.63 153.67) (xy 91.44 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c052cdf-8187-4002-8bfb-202cbb37eeb0")
+		(uuid "6f9f99dd-ebd8-4c82-87a6-beaf99edba64")
 	)
 	(wire
 		(pts
-			(xy 77.47 106.68) (xy 77.47 110.49)
+			(xy 72.39 123.19) (xy 90.17 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d63ed2c-a1b1-45ef-a028-4fbf28f6958f")
+		(uuid "733e61c9-1a9b-4a84-8cdb-4bbc00474d17")
 	)
 	(wire
 		(pts
-			(xy 52.07 93.98) (xy 54.61 93.98)
+			(xy 130.81 180.34) (xy 130.81 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e009af0-8768-465a-a05c-d806746b2c84")
-	)
-	(wire
-		(pts
-			(xy 39.37 106.68) (xy 39.37 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "706dde14-cf70-4044-9109-dcfddb3fbbf7")
-	)
-	(wire
-		(pts
-			(xy 74.93 144.78) (xy 74.93 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71a37748-75ee-4b95-aa7e-cc7377e1b8a4")
-	)
-	(wire
-		(pts
-			(xy 49.53 106.68) (xy 49.53 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71c00414-c7cb-480e-9b33-3137583ca2ff")
-	)
-	(wire
-		(pts
-			(xy 25.4 115.57) (xy 30.48 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "737a346b-ef16-42e0-b8ad-3f2b6569b9ea")
-	)
-	(wire
-		(pts
-			(xy 25.4 125.73) (xy 44.45 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7642b89a-fa70-47fe-8943-3894d9be549e")
-	)
-	(wire
-		(pts
-			(xy 39.37 107.95) (xy 39.37 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "781aa841-63fe-47e9-8173-c321bae89459")
+		(uuid "75fac0df-1412-4875-83e5-12f512610c31")
 	)
 	(wire
 		(pts
@@ -6125,26 +5350,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 93.98) (xy 77.47 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c761fd5-c51a-4993-a256-c60bb098c277")
-	)
-	(wire
-		(pts
-			(xy 80.01 123.19) (xy 80.01 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e7a6e7d-c478-45af-83f2-3b0b68c1a7c9")
-	)
-	(wire
-		(pts
 			(xy 104.14 74.93) (xy 106.68 74.93)
 		)
 		(stroke
@@ -6165,13 +5370,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 110.49) (xy 77.47 110.49)
+			(xy 72.39 138.43) (xy 77.47 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8590007f-ac92-4c1e-9a0b-65ef93e273a1")
+		(uuid "82bc279e-1f35-4492-88a7-491b27b8eb8d")
 	)
 	(wire
 		(pts
@@ -6185,43 +5390,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 106.68) (xy 46.99 130.81)
+			(xy 72.39 133.35) (xy 83.82 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89b74811-c27c-4394-9e61-3f1b2d5bc9cd")
-	)
-	(wire
-		(pts
-			(xy 25.4 120.65) (xy 62.23 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a6fb194-307d-41b5-9bad-7b116db3fb22")
-	)
-	(wire
-		(pts
-			(xy 69.85 125.73) (xy 91.44 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ade14f0-1371-47b7-856c-2c368b1495d2")
-	)
-	(wire
-		(pts
-			(xy 60.96 151.13) (xy 60.96 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b17c1ce-8566-40a4-ae6c-20a53bd6fc25")
+		(uuid "8ab3b0b8-445f-4f1a-b512-4b46a9a32c56")
 	)
 	(wire
 		(pts
@@ -6245,16 +5420,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 144.78) (xy 49.53 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c3306dd-eb03-40dd-a1a1-8b9993f2ffe1")
-	)
-	(wire
-		(pts
 			(xy 97.79 25.4) (xy 97.79 31.75)
 		)
 		(stroke
@@ -6275,6 +5440,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 194.31) (xy 140.97 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e410d7f-fb49-4144-9482-d7821e3cd875")
+	)
+	(wire
+		(pts
 			(xy 196.85 95.25) (xy 205.74 95.25)
 		)
 		(stroke
@@ -6282,26 +5457,6 @@
 			(type default)
 		)
 		(uuid "8e4755d6-5193-4fc4-a7f7-023b8d4a5f12")
-	)
-	(wire
-		(pts
-			(xy 72.39 151.13) (xy 74.93 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e852266-6b5e-43d4-afa0-6d6d45b33c55")
-	)
-	(wire
-		(pts
-			(xy 67.31 93.98) (xy 67.31 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ec7565f-8f66-4158-9053-fa8f9745cfd3")
 	)
 	(wire
 		(pts
@@ -6315,13 +5470,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 151.13) (xy 57.15 151.13)
+			(xy 72.39 125.73) (xy 81.28 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90621e2b-cd7f-4db6-b9ae-90edc6a5dd21")
+		(uuid "8f784bd0-0616-4ff2-a911-17289da90f61")
 	)
 	(wire
 		(pts
@@ -6375,86 +5530,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 128.27) (xy 57.15 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92c0190a-e65d-47d6-94a2-45632c46fb7c")
-	)
-	(wire
-		(pts
-			(xy 80.01 151.13) (xy 82.55 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "935bae40-7fe1-445f-bd90-98d0be613a51")
-	)
-	(wire
-		(pts
-			(xy 44.45 125.73) (xy 44.45 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94580c89-ad7b-40dd-a8a5-1d8958035287")
-	)
-	(wire
-		(pts
-			(xy 57.15 93.98) (xy 59.69 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "951651ec-84dd-49f9-a435-df8ee5e904dc")
-	)
-	(wire
-		(pts
-			(xy 36.83 93.98) (xy 39.37 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9529f51e-0561-4c3f-98b0-9468fafc1d87")
-	)
-	(wire
-		(pts
-			(xy 46.99 130.81) (xy 72.39 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96fc31f2-28e4-43aa-9712-9786a982f1ca")
-	)
-	(wire
-		(pts
-			(xy 74.93 151.13) (xy 77.47 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97ee8919-8df4-4468-bfc0-bbe79d9c56b1")
-	)
-	(wire
-		(pts
-			(xy 80.01 123.19) (xy 91.44 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "980ba95d-2d00-41d1-825d-5594273a93a0")
-	)
-	(wire
-		(pts
 			(xy 82.55 74.93) (xy 93.98 74.93)
 		)
 		(stroke
@@ -6465,26 +5540,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 151.13) (xy 39.37 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9879ff44-5062-4009-a65c-60d098bf691d")
-	)
-	(wire
-		(pts
-			(xy 39.37 144.78) (xy 39.37 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99ce1674-a28a-433b-81b1-a7c68fa519d7")
-	)
-	(wire
-		(pts
 			(xy 251.46 39.37) (xy 251.46 45.72)
 		)
 		(stroke
@@ -6492,16 +5547,6 @@
 			(type default)
 		)
 		(uuid "9acc464a-375c-41e4-9ec2-e0bbcab18f5e")
-	)
-	(wire
-		(pts
-			(xy 74.93 133.35) (xy 74.93 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b7694de-225a-43c7-bb70-fc9826b91461")
 	)
 	(wire
 		(pts
@@ -6535,46 +5580,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 144.78) (xy 41.91 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f3ddfbf-03bf-407d-85ae-06e0bc97524b")
-	)
-	(wire
-		(pts
-			(xy 74.93 93.98) (xy 74.93 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fe4e5b7-54df-4947-a379-7e35cb26d671")
-	)
-	(wire
-		(pts
-			(xy 64.77 107.95) (xy 91.44 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0877dd1-e977-496f-a834-776686ed4991")
-	)
-	(wire
-		(pts
-			(xy 67.31 118.11) (xy 67.31 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0b31572-2398-401c-bdf9-e02328e1a30b")
-	)
-	(wire
-		(pts
 			(xy 237.49 25.4) (xy 237.49 31.75)
 		)
 		(stroke
@@ -6582,6 +5587,36 @@
 			(type default)
 		)
 		(uuid "a105c01d-9871-453a-ba2a-c43662f2fd72")
+	)
+	(wire
+		(pts
+			(xy 87.63 130.81) (xy 87.63 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ae7f8f-97d2-4bfc-8d17-a78324e27231")
+	)
+	(wire
+		(pts
+			(xy 124.46 113.03) (xy 135.89 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a39eddb4-8cd7-4eaa-a2d8-7b7300830826")
+	)
+	(wire
+		(pts
+			(xy 128.27 173.99) (xy 128.27 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3af3c8f-47fa-4a2c-9141-4132278a0d2c")
 	)
 	(wire
 		(pts
@@ -6615,36 +5650,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 106.68) (xy 64.77 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a76824c8-1cc5-436e-a4c1-ac6c1142ba38")
-	)
-	(wire
-		(pts
-			(xy 44.45 151.13) (xy 46.99 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7adda76-2d8e-49fc-a3c3-6e13622ca663")
-	)
-	(wire
-		(pts
-			(xy 36.83 105.41) (xy 36.83 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a87f1582-e0c2-4c82-b9cb-f9e8d2b68867")
-	)
-	(wire
-		(pts
 			(xy 255.27 120.65) (xy 256.54 120.65)
 		)
 		(stroke
@@ -6652,16 +5657,6 @@
 			(type default)
 		)
 		(uuid "a9071188-75e9-4f0a-87db-c49dcd2f6a4f")
-	)
-	(wire
-		(pts
-			(xy 77.47 151.13) (xy 80.01 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaaf15b5-ca3c-45eb-a961-29625569fa37")
 	)
 	(wire
 		(pts
@@ -6675,16 +5670,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 144.78) (xy 80.01 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac924bb4-8cce-4efa-855c-ccf2d8780194")
-	)
-	(wire
-		(pts
 			(xy 71.12 82.55) (xy 82.55 82.55)
 		)
 		(stroke
@@ -6695,43 +5680,33 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 93.98) (xy 67.31 93.98)
+			(xy 74.93 185.42) (xy 133.35 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae77a8cf-c101-48f7-8340-c8eae0d38be9")
+		(uuid "adc60cd3-568c-431e-85ec-190baeed6916")
 	)
 	(wire
 		(pts
-			(xy 57.15 93.98) (xy 57.15 99.06)
+			(xy 135.89 187.96) (xy 135.89 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af9964a3-e504-4c84-9cab-43e87f09050d")
+		(uuid "aec4e4de-c9c1-4548-9922-60daad6d8c68")
 	)
 	(wire
 		(pts
-			(xy 49.53 151.13) (xy 52.07 151.13)
+			(xy 91.44 142.24) (xy 91.44 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "afdb5700-7f96-43ab-bbdb-e76d90e57cbe")
-	)
-	(wire
-		(pts
-			(xy 25.4 130.81) (xy 46.99 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1bc84d0-3d57-4e49-8e73-286cd85f085a")
+		(uuid "afb9f19f-7939-49cd-8baa-4f97828e1ef2")
 	)
 	(wire
 		(pts
@@ -6745,36 +5720,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 97.79) (xy 91.44 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b534245e-8cbe-4cf0-ae21-ccc1a5920f36")
-	)
-	(wire
-		(pts
-			(xy 59.69 93.98) (xy 59.69 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5cb3e31-7ea9-40fc-aeef-d818622c811d")
-	)
-	(wire
-		(pts
-			(xy 44.45 93.98) (xy 46.99 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b60a1077-0388-471b-9a2a-a8c042597f60")
-	)
-	(wire
-		(pts
 			(xy 237.49 31.75) (xy 241.3 31.75)
 		)
 		(stroke
@@ -6782,16 +5727,6 @@
 			(type default)
 		)
 		(uuid "b66a7085-0c23-4e77-8e6f-979a8de8108f")
-	)
-	(wire
-		(pts
-			(xy 64.77 93.98) (xy 64.77 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6806be1-81cd-4379-b688-b8d0b61ba314")
 	)
 	(wire
 		(pts
@@ -6835,33 +5770,33 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 118.11) (xy 41.91 118.11)
+			(xy 127 182.88) (xy 127 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b871be24-dfad-4a62-b829-445bd5e403fc")
+		(uuid "b84d069c-224d-48ad-aefe-67067c4d0e66")
 	)
 	(wire
 		(pts
-			(xy 69.85 106.68) (xy 69.85 125.73)
+			(xy 86.36 142.24) (xy 91.44 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "babe9666-8dbb-4868-972c-9c77b99ec5c1")
+		(uuid "b874a4ff-2dbd-4b10-b49a-03634c5a46f8")
 	)
 	(wire
 		(pts
-			(xy 41.91 93.98) (xy 44.45 93.98)
+			(xy 90.17 146.05) (xy 91.44 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bdec8196-ed20-405f-a48c-b8475d234e26")
+		(uuid "b958b1fa-a3a6-4878-bd0d-5cd75d5034da")
 	)
 	(wire
 		(pts
@@ -6885,16 +5820,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 130.81) (xy 91.44 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0c884a6-aea4-4905-ba21-5fc9c62252d0")
-	)
-	(wire
-		(pts
 			(xy 269.24 80.01) (xy 274.32 80.01)
 		)
 		(stroke
@@ -6905,26 +5830,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 133.35) (xy 91.44 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1e73cda-af5d-42a8-aedd-3d013c627c81")
-	)
-	(wire
-		(pts
-			(xy 54.61 93.98) (xy 54.61 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2679286-a00e-4203-96f9-4fbe2cd3e167")
-	)
-	(wire
-		(pts
 			(xy 273.05 118.11) (xy 274.32 118.11)
 		)
 		(stroke
@@ -6932,16 +5837,6 @@
 			(type default)
 		)
 		(uuid "c2bfa170-0f6f-4d6d-80b1-a7d2a24a3dda")
-	)
-	(wire
-		(pts
-			(xy 54.61 93.98) (xy 57.15 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c40fbbba-6123-4a51-89d6-789789f3e8c1")
 	)
 	(wire
 		(pts
@@ -6965,26 +5860,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 107.95) (xy 64.77 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6581a30-f580-424c-aa93-45defe6d653a")
-	)
-	(wire
-		(pts
-			(xy 67.31 106.68) (xy 67.31 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c99f9001-543f-4bf2-84f5-8e41b37bdd06")
-	)
-	(wire
-		(pts
 			(xy 157.48 34.29) (xy 167.64 34.29)
 		)
 		(stroke
@@ -6992,16 +5867,6 @@
 			(type default)
 		)
 		(uuid "ca7fe76b-ce4e-431b-bf8c-5fb054cf3adc")
-	)
-	(wire
-		(pts
-			(xy 82.55 144.78) (xy 82.55 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbdc9af1-1504-4d34-bde0-563760c30403")
 	)
 	(wire
 		(pts
@@ -7035,16 +5900,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 110.49) (xy 91.44 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc77dd58-d2db-49f6-8435-6b1709838e31")
-	)
-	(wire
-		(pts
 			(xy 255.27 43.18) (xy 255.27 45.72)
 		)
 		(stroke
@@ -7055,23 +5910,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 144.78) (xy 57.15 151.13)
+			(xy 127 123.19) (xy 124.46 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce586f12-b9b9-484a-b20a-205c0b0168d2")
-	)
-	(wire
-		(pts
-			(xy 49.53 93.98) (xy 49.53 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cea9ace5-1f33-44b5-a973-af275eb2cc23")
+		(uuid "ce4be5da-cfbe-4c89-819f-088e9c0202c1")
 	)
 	(wire
 		(pts
@@ -7095,26 +5940,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 144.78) (xy 67.31 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d02d4b99-e316-4675-8789-3a7ec4be6101")
-	)
-	(wire
-		(pts
-			(xy 46.99 93.98) (xy 49.53 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d054d16d-b5b3-4bbc-927d-72103ea23b16")
-	)
-	(wire
-		(pts
 			(xy 114.3 73.66) (xy 129.54 73.66)
 		)
 		(stroke
@@ -7122,6 +5947,16 @@
 			(type default)
 		)
 		(uuid "d275c66f-9318-4ff3-a910-6aa948406015")
+	)
+	(wire
+		(pts
+			(xy 74.93 146.05) (xy 74.93 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d29ffefe-36e2-42c2-8f37-f32fe6c794db")
 	)
 	(wire
 		(pts
@@ -7135,16 +5970,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 106.68) (xy 80.01 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3eee40a-4572-47a9-9e7f-995c4ea00d09")
-	)
-	(wire
-		(pts
 			(xy 118.11 31.75) (xy 127 31.75)
 		)
 		(stroke
@@ -7155,16 +5980,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 93.98) (xy 41.91 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d65a874a-a0df-4bb9-852b-9af8b5111c01")
-	)
-	(wire
-		(pts
 			(xy 114.3 72.39) (xy 114.3 73.66)
 		)
 		(stroke
@@ -7172,6 +5987,16 @@
 			(type default)
 		)
 		(uuid "d6fa1566-e23c-4ef4-b867-647d48135879")
+	)
+	(wire
+		(pts
+			(xy 80.01 135.89) (xy 80.01 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b28b85-e089-4395-b0a3-661d7a1f6ef0")
 	)
 	(wire
 		(pts
@@ -7195,16 +6020,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 93.98) (xy 44.45 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9690db8-2d66-42bd-b063-0da5851bb372")
-	)
-	(wire
-		(pts
 			(xy 86.36 36.83) (xy 86.36 41.91)
 		)
 		(stroke
@@ -7225,53 +6040,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 93.98) (xy 72.39 93.98)
+			(xy 72.39 120.65) (xy 86.36 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dacf1620-85fe-4cc4-9d98-3739dc1644a4")
-	)
-	(wire
-		(pts
-			(xy 54.61 123.19) (xy 54.61 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df81d1f7-f2b9-4f08-b168-86bf0faa5834")
-	)
-	(wire
-		(pts
-			(xy 57.15 128.27) (xy 82.55 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dffccc35-5125-42c4-9690-a10ff330b0aa")
-	)
-	(wire
-		(pts
-			(xy 67.31 151.13) (xy 69.85 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2ff3849-02ef-48e7-87a7-13c2fbdbbcbc")
-	)
-	(wire
-		(pts
-			(xy 25.4 105.41) (xy 36.83 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3d39026-8eb3-4013-bd6c-dab9d18d5565")
+		(uuid "dacd5a43-1a88-40c8-868b-c80019a5d6c6")
 	)
 	(wire
 		(pts
@@ -7285,16 +6060,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 93.98) (xy 77.47 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4f8ea67-c0cb-48f5-9ae4-8a2e26534b7d")
-	)
-	(wire
-		(pts
 			(xy 81.28 39.37) (xy 111.76 39.37)
 		)
 		(stroke
@@ -7302,36 +6067,6 @@
 			(type default)
 		)
 		(uuid "e7b91caa-9ca9-49ab-b773-f5b4bf4b0fcd")
-	)
-	(wire
-		(pts
-			(xy 54.61 123.19) (xy 80.01 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea18cfa3-7bf3-4f8f-bda3-5f9377d295b5")
-	)
-	(wire
-		(pts
-			(xy 25.4 123.19) (xy 54.61 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eab7d3cb-e00e-4efa-910b-202f1b5ec413")
-	)
-	(wire
-		(pts
-			(xy 49.53 133.35) (xy 74.93 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec150202-88f4-4f65-91ed-3c24f3430ed2")
 	)
 	(wire
 		(pts
@@ -7345,23 +6080,23 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 106.68) (xy 41.91 118.11)
+			(xy 76.2 148.59) (xy 76.2 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee3d68d4-5f97-4c49-b254-d870c78b8cf7")
+		(uuid "ee687b9e-a166-4d29-b9c2-09cbf04b67ff")
 	)
 	(wire
 		(pts
-			(xy 77.47 110.49) (xy 77.47 137.16)
+			(xy 86.36 143.51) (xy 86.36 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee5d7521-e749-4b6f-bd4d-9c77834f6b90")
+		(uuid "ee80cf94-b663-418a-88ae-3b53690f9932")
 	)
 	(wire
 		(pts
@@ -7395,26 +6130,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 93.98) (xy 41.91 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f100f067-9c6c-4104-bb9b-87100026160d")
-	)
-	(wire
-		(pts
-			(xy 60.96 153.67) (xy 91.44 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f14dde23-17fa-4866-be75-c8bcc76e799f")
-	)
-	(wire
-		(pts
 			(xy 226.06 36.83) (xy 226.06 41.91)
 		)
 		(stroke
@@ -7435,26 +6150,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 106.68) (xy 82.55 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f36ff725-4829-4d04-9eea-9229a12f9124")
-	)
-	(wire
-		(pts
-			(xy 77.47 144.78) (xy 77.47 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3750de5-952b-446d-aa61-40fa64832763")
-	)
-	(wire
-		(pts
 			(xy 232.41 90.17) (xy 232.41 93.98)
 		)
 		(stroke
@@ -7465,6 +6160,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 191.77) (xy 138.43 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3dd3671-3fc6-45a2-887e-671cc141d909")
+	)
+	(wire
+		(pts
 			(xy 162.56 81.28) (xy 162.56 83.82)
 		)
 		(stroke
@@ -7472,16 +6177,6 @@
 			(type default)
 		)
 		(uuid "f46f561e-41d6-4375-a97e-eb918f209c76")
-	)
-	(wire
-		(pts
-			(xy 54.61 144.78) (xy 54.61 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4d222bd-dead-4ba9-b21f-e0da7da55003")
 	)
 	(wire
 		(pts
@@ -7502,26 +6197,6 @@
 			(type default)
 		)
 		(uuid "f592ecec-c5ad-4b6c-bcb9-09dc8d272b00")
-	)
-	(wire
-		(pts
-			(xy 52.07 106.68) (xy 52.07 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5a4bcaf-1436-47f8-99fb-198f8e74e640")
-	)
-	(wire
-		(pts
-			(xy 46.99 144.78) (xy 46.99 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6c798ff-ffa6-4dd7-b1eb-c8a44499c950")
 	)
 	(wire
 		(pts
@@ -7555,16 +6230,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 144.78) (xy 69.85 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa8238b0-0f91-40aa-af91-a36ea62516ee")
-	)
-	(wire
-		(pts
 			(xy 255.27 57.15) (xy 261.62 57.15)
 		)
 		(stroke
@@ -7572,16 +6237,6 @@
 			(type default)
 		)
 		(uuid "fb498061-5dba-4dc1-9282-c01824204b86")
-	)
-	(wire
-		(pts
-			(xy 69.85 93.98) (xy 69.85 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feca3016-0857-4df8-8dac-5fcbbedab217")
 	)
 	(label "PWR_LED_K2"
 		(at 271.78 118.11 0)
@@ -7602,96 +6257,6 @@
 			(justify left bottom)
 		)
 		(uuid "e49da6c3-eeb4-45c9-956d-efaae014a2e4")
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 67.31 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01e172b9-827d-476b-ab6d-c15000040ddf")
-		(property "Reference" "D12"
-			(at 69.85 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 69.85 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 71.755 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 67.31 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 67.31 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 67.31 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 67.31 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "19e1ffda-7666-409a-8b44-37b6eb417eac")
-		)
-		(pin "1"
-			(uuid "3d85419c-ebf5-40e7-beac-d5b85629b4a0")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -7756,276 +6321,6 @@
 			(project "TEMPERATURE_SENSOR_KICAD"
 				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
 					(reference "Cboot1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 69.85 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06113ee2-4bf5-4157-b0fb-bb9de6c723db")
-		(property "Reference" "D29"
-			(at 67.31 142.2401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 67.31 139.7001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 65.405 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 69.85 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 69.85 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 69.85 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "62aed864-08e2-4823-baab-71cc0042c606")
-		)
-		(pin "1"
-			(uuid "b2b92c60-07da-4cc5-a9bf-6540f5ed9808")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 49.53 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c0ea8cf-9270-4578-ba22-9f9fb683405f")
-		(property "Reference" "D22"
-			(at 46.99 142.2401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 46.99 139.7001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 45.085 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 49.53 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 49.53 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 49.53 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 49.53 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "180eca90-31ed-4992-82e9-506218c36012")
-		)
-		(pin "1"
-			(uuid "b424a2e1-2d5d-4154-bb3f-a6f65dbe9be7")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 72.39 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e30faf8-ae1e-47ef-9729-b69f1455d85e")
-		(property "Reference" "D14"
-			(at 74.93 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 74.93 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 76.835 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 72.39 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 72.39 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 72.39 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 72.39 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e7ade081-444e-411c-addb-960d87fde550")
-		)
-		(pin "1"
-			(uuid "1231ae2a-3f1b-4cc7-b799-02ee2d4ee3dc")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -8240,96 +6535,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 57.15 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13056d3b-bf55-43df-b13a-41e3de60dc3a")
-		(property "Reference" "D10"
-			(at 59.69 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 59.69 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 61.595 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 57.15 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 57.15 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 57.15 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 57.15 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3cefd45e-8ed6-4592-9450-6d49a1774eae")
-		)
-		(pin "1"
-			(uuid "b38d7f12-d7ea-471e-b141-77908688cb25")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 144.78 77.47 0)
 		(unit 1)
@@ -8536,366 +6741,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 39.37 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "196b53c6-67cd-449c-b84d-d47f5777a041")
-		(property "Reference" "D26"
-			(at 36.83 142.2401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 36.83 139.7001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 34.925 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 39.37 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 39.37 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 39.37 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 39.37 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "951b6d8a-f40d-4dc4-8013-3484732e5d63")
-		)
-		(pin "1"
-			(uuid "cb7e1405-2bda-48aa-9fb4-952726b18550")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 82.55 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a2a5d70-2a1e-4854-8556-7a9fb59063cb")
-		(property "Reference" "D18"
-			(at 85.09 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 85.09 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 86.995 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 82.55 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 82.55 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 82.55 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 82.55 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "903cf5c6-84be-4599-801e-d1a6270be139")
-		)
-		(pin "1"
-			(uuid "3c0ecfd2-d729-4a0a-ac9b-8cc9f0daae50")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 49.53 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21329200-f59b-4cb9-87fa-472314f25747")
-		(property "Reference" "D7"
-			(at 52.07 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 52.07 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 53.975 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 49.53 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 49.53 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 49.53 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 49.53 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "44cd04a0-3346-4b97-8f08-b8bf9d98567b")
-		)
-		(pin "1"
-			(uuid "4fd20dba-0db9-4103-98c6-b8ec037ae7c8")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 74.93 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "221451c3-dcec-4e23-a954-af781a2d5c34")
-		(property "Reference" "D31"
-			(at 72.39 142.2401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 72.39 139.7001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 70.485 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 74.93 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 74.93 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 74.93 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 74.93 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "133b352c-06cd-40b7-8c2f-1477b7802d7e")
-		)
-		(pin "1"
-			(uuid "54693179-e8d7-4852-81aa-61c6a78b2328")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 264.16 127 0)
 		(unit 1)
@@ -8960,96 +6805,6 @@
 			(project "TEMPERATURE_SENSOR_KICAD"
 				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 41.91 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23c1d4a7-00dc-46bf-ae7c-068eeb70b6ff")
-		(property "Reference" "D4"
-			(at 44.45 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 44.45 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 46.355 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 41.91 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 41.91 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 41.91 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 41.91 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "efd945c8-221d-4f5c-ae98-50a8df191474")
-		)
-		(pin "1"
-			(uuid "081d4102-3c25-451e-8d52-fc073a131505")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -9127,7 +6882,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x12_MountingPin")
-		(at 20.32 120.65 180)
+		(at 67.31 133.35 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9135,7 +6891,7 @@
 		(dnp no)
 		(uuid "2b085738-86ef-47b5-b3c9-35a4a56b21c8")
 		(property "Reference" "J1"
-			(at 17.78 117.7543 0)
+			(at 64.77 136.2457 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9144,7 +6900,7 @@
 			)
 		)
 		(property "Value" "LCD Connector Pinout"
-			(at 43.942 91.186 0)
+			(at 90.932 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9153,7 +6909,7 @@
 			)
 		)
 		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11012_1x12-1MP_P0.5mm_Horizontal"
-			(at 20.32 120.65 0)
+			(at 67.31 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9162,7 +6918,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 120.65 0)
+			(at 67.31 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9171,7 +6927,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 20.32 120.65 0)
+			(at 67.31 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9436,186 +7192,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 44.45 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3778c926-2af0-466b-a065-d33402f7aa19")
-		(property "Reference" "D24"
-			(at 41.91 142.2401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 41.91 139.7001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 40.005 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 44.45 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 44.45 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 44.45 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 44.45 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5e1256f7-ce9c-4bef-843c-43612bbab823")
-		)
-		(pin "1"
-			(uuid "3f27f263-afef-49a2-99c0-c4b7e0cf07c0")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 54.61 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3798b2f3-de45-48bf-89d1-0b854a52eb8e")
-		(property "Reference" "D9"
-			(at 57.15 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 57.15 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 59.055 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 54.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 54.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 54.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 54.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b204fc87-61ab-456a-b93e-f9fd8be00b9a")
-		)
-		(pin "1"
-			(uuid "e8ea8d12-bb5a-4fa3-be12-ae4aea8d4a9d")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 157.48 40.64 0)
 		(unit 1)
@@ -9680,96 +7256,6 @@
 			(project "TEMPERATURE_SENSOR_KICAD"
 				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
 					(reference "Cin1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 52.07 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d58a1cb-6b0c-4063-8c9b-9e6754c9aab4")
-		(property "Reference" "D21"
-			(at 49.53 142.2401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 49.53 139.7001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 47.625 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 52.07 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 52.07 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 52.07 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 52.07 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "859f4e22-7b2e-44b5-a2c0-b722f9aef8b2")
-		)
-		(pin "1"
-			(uuid "ad60bbb1-9279-482c-9e45-eea7bebd080e")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -10050,366 +7536,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 54.61 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46105d1a-5366-4f2f-b5b0-6cd2bc5b7a2a")
-		(property "Reference" "D20"
-			(at 52.07 142.2401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 52.07 139.7001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 50.165 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 54.61 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 54.61 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 54.61 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 54.61 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ed34d59b-0c51-4a1f-a11c-7cb33f6be0c6")
-		)
-		(pin "1"
-			(uuid "0534bb2c-e9d0-4abc-b091-7afdb1f72ce1")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 69.85 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e4109cf-5884-4ea7-926c-f2a7b9b2b56a")
-		(property "Reference" "D13"
-			(at 72.39 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 72.39 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 74.295 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 69.85 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 69.85 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 69.85 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "89497e74-56a8-4d0c-86ac-754a5d188e54")
-		)
-		(pin "1"
-			(uuid "23b50c86-621a-4a30-827d-e258b9461318")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 82.55 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f242500-75ed-4c90-9d2f-cc542567a772")
-		(property "Reference" "D34"
-			(at 80.01 142.2401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 80.01 139.7001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 78.105 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 82.55 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 82.55 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 82.55 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 82.55 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ba90b7d1-f699-4097-a91d-9597b394189c")
-		)
-		(pin "1"
-			(uuid "52c1c470-aa81-4735-be61-f29eae68b47e")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 77.47 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f5ee609-4821-4187-a9f7-60aefff60935")
-		(property "Reference" "D32"
-			(at 74.93 142.2401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 74.93 139.7001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 73.025 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 77.47 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 77.47 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 77.47 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 77.47 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "95dbc2bd-8cdd-4f19-82ce-a2e476e42170")
-		)
-		(pin "1"
-			(uuid "68d1790e-4e26-4f69-aff8-4e8ffa35b887")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3VA")
 		(at 114.3 72.39 0)
 		(unit 1)
@@ -10560,7 +7686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "5V"
 			(at 232.41 74.93 0)
 			(effects
 				(font
@@ -10954,96 +8080,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 64.77 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66e43a82-fd5d-478e-ac57-9b5ffb2771fb")
-		(property "Reference" "D11"
-			(at 67.31 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 67.31 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 69.215 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 64.77 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 64.77 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 64.77 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 64.77 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dd657fee-dbf4-46ad-8476-f08ded68e026")
-		)
-		(pin "1"
-			(uuid "0a0ccc4c-f128-48b7-a775-e600b8f15ff7")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 82.55 78.74 0)
 		(unit 1)
@@ -11252,96 +8288,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 80.01 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77240fdc-076a-46a8-81e7-8e8ac06f4818")
-		(property "Reference" "D33"
-			(at 77.47 142.2401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 77.47 139.7001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 75.565 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 80.01 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 80.01 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 80.01 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 80.01 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "edaa0d6b-7615-426e-9a8d-49971b4a974f")
-		)
-		(pin "1"
-			(uuid "37d8e061-4562-4bc9-849e-323aa054b59e")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 167.64 77.47 0)
 		(unit 1)
@@ -11542,96 +8488,6 @@
 			(project "TEMPERATURE_SENSOR_KICAD"
 				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 67.31 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a3b240f-b725-4588-8bf0-0cbc3391747f")
-		(property "Reference" "D28"
-			(at 64.77 142.2401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 64.77 139.7001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 62.865 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 67.31 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 67.31 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 67.31 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 67.31 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "216464f4-b7ac-4f88-b6f8-0dd5bbce4c48")
-		)
-		(pin "1"
-			(uuid "b7532004-3fa6-4a79-9a13-612612525e16")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -11919,96 +8775,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 39.37 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86cd549e-112c-4ab2-a08f-fc1b3fdd48f4")
-		(property "Reference" "D3"
-			(at 41.91 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 41.91 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 43.815 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 39.37 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 39.37 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 39.37 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 39.37 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9afb01d7-cad4-4bd0-b5ea-9e514635c227")
-		)
-		(pin "1"
-			(uuid "e75fc3d8-8082-4459-9957-bd1febb20020")
-		)
-		(instances
-			(project ""
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 104.14 72.39 0)
 		(unit 1)
@@ -12069,186 +8835,6 @@
 			(project "TEMPERATURE_SENSOR_KICAD"
 				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 46.99 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87fd7390-6c46-408d-a853-1b8d36bb7c07")
-		(property "Reference" "D23"
-			(at 44.45 142.2401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 44.45 139.7001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 42.545 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 46.99 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 46.99 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 46.99 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 46.99 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "42e201f7-819d-4066-9bf4-4fbb328943f7")
-		)
-		(pin "1"
-			(uuid "05cb28c4-1b3d-4bac-a2f6-67f3d963ac44")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 57.15 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8835d0e2-e7e9-454e-978a-ad3cf6a17903")
-		(property "Reference" "D19"
-			(at 54.61 142.2401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 54.61 139.7001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 52.705 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 57.15 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 57.15 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 57.15 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 57.15 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "899f8b78-d880-4cdf-8203-a0073dbab3b1")
-		)
-		(pin "1"
-			(uuid "017383e2-b46e-4ab9-9dea-0b4980ff9e16")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -12462,96 +9048,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 44.45 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94ba32b7-c7c1-450d-929a-4255871913f2")
-		(property "Reference" "D5"
-			(at 46.99 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 46.99 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 48.895 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 44.45 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 44.45 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 44.45 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 44.45 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a6ad9be8-8fb8-4709-abc3-15b79a678477")
-		)
-		(pin "1"
-			(uuid "2e63c16e-18e6-455e-881a-5b406e176a0d")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 261.62 80.01 0)
 		(unit 1)
@@ -12755,96 +9251,6 @@
 			(project "TEMPERATURE_SENSOR_KICAD"
 				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 72.39 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "989b8e38-c7e0-4e18-a4e4-e0332404d677")
-		(property "Reference" "D30"
-			(at 69.85 142.2401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 69.85 139.7001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 67.945 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 72.39 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 72.39 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 72.39 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 72.39 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5009d484-571e-4751-b8c8-bbee6aae977a")
-		)
-		(pin "1"
-			(uuid "dab4637b-0f86-46fe-bd0f-919a2742fc02")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -13776,96 +10182,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 74.93 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6ff4c37-f2e6-4d8f-bc09-7a1092f1a37d")
-		(property "Reference" "D15"
-			(at 77.47 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 77.47 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 79.375 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 74.93 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 74.93 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 74.93 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 74.93 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "836736e1-82d5-4f16-b97a-700a20df2982")
-		)
-		(pin "1"
-			(uuid "e26212f4-bbfd-4ca4-a18b-284e9da3d9b2")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 86.36 45.72 0)
 		(unit 1)
@@ -14074,276 +10390,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 77.47 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0bd64d7-1cc6-4869-b316-31da45832451")
-		(property "Reference" "D16"
-			(at 80.01 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 80.01 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 81.915 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 77.47 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 77.47 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 77.47 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 77.47 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e52db78c-7b50-4692-9d74-3dd65416af17")
-		)
-		(pin "1"
-			(uuid "e8e6fa8b-2b14-461b-b6dc-0814853d408e")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 52.07 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d23b971b-cce5-4b27-9505-725fe5a5c8a3")
-		(property "Reference" "D8"
-			(at 54.61 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 54.61 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 56.515 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 52.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 52.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 52.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 52.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "935c3f52-cb7d-4dc6-8fff-1f9aae609007")
-		)
-		(pin "1"
-			(uuid "4edb8412-3647-4473-b214-ee819034c47e")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 80.01 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d337c71e-4de7-4ff1-805b-985cb16eb6de")
-		(property "Reference" "D17"
-			(at 82.55 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 82.55 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 84.455 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 80.01 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 80.01 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 80.01 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 80.01 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0650a0b0-f9da-4c6d-8cff-5ea62caadd32")
-		)
-		(pin "1"
-			(uuid "d5c667e4-00fc-4f77-a019-8e8118169438")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 157.48 34.29 0)
 		(unit 1)
@@ -14410,186 +10456,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 64.77 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc454d7a-f717-4039-a488-55a3fb192bee")
-		(property "Reference" "D27"
-			(at 62.23 142.2401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 62.23 139.7001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 60.325 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 64.77 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 64.77 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 64.77 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 64.77 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "71bb09de-5f17-47e3-ae05-53349adf3271")
-		)
-		(pin "1"
-			(uuid "6adb2d9f-d365-4dbb-87ea-23f2c9903f0f")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 46.99 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de2f6b21-cca1-45d5-a5c6-12ac920e7b0b")
-		(property "Reference" "D6"
-			(at 49.53 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 49.53 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 51.435 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 46.99 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 46.99 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 46.99 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 46.99 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6da008e7-ed59-435e-ba07-64cd8bebe9b3")
-		)
-		(pin "1"
-			(uuid "2a309eff-95a6-4bc9-8860-e4b8fc81f3ed")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 121.92 57.15 0)
 		(unit 1)
@@ -14650,96 +10516,6 @@
 			(project "TEMPERATURE_SENSOR_KICAD"
 				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 41.91 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e44c4dc2-78a4-4532-a890-4a188a19303c")
-		(property "Reference" "D25"
-			(at 39.37 142.2401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 39.37 139.7001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 37.465 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 41.91 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 41.91 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 41.91 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 41.91 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d137dc3a-e843-41e0-bc15-0ac73472d730")
-		)
-		(pin "1"
-			(uuid "48b91cf5-f393-476c-9433-c429ec767764")
-		)
-		(instances
-			(project "TEMPERATURE_SENSOR_KICAD"
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -15719,7 +11495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "5V"
 			(at 232.41 113.03 0)
 			(effects
 				(font
