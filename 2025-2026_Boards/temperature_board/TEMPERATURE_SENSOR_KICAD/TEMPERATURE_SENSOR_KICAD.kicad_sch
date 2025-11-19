@@ -4531,6 +4531,12 @@
 		(uuid "a6bc67bd-94cb-44ff-b73a-2534847b8880")
 	)
 	(junction
+		(at 76.2 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9cc6e3d-301f-41c4-92cf-441b2f75a0b4")
+	)
+	(junction
 		(at 257.81 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4627,6 +4633,34 @@
 		(uuid "f5a9c3c4-2210-4dc3-99c9-3e3c91327fc7")
 	)
 	(no_connect
+		(at 91.44 128.27)
+		(uuid "0248251f-2d17-4944-b2e2-d834aac50c1d")
+	)
+	(no_connect
+		(at 124.46 90.17)
+		(uuid "05dfcf64-1766-4d3a-ad39-a143163870cc")
+	)
+	(no_connect
+		(at 124.46 92.71)
+		(uuid "072c8ed6-5107-43b5-9ded-afdff51468d8")
+	)
+	(no_connect
+		(at 91.44 123.19)
+		(uuid "0c7ebcc2-b4a1-4c4a-9e52-3dc9458d4378")
+	)
+	(no_connect
+		(at 100.33 97.79)
+		(uuid "151e3fab-bf69-4ba7-9ac0-f48320ab9451")
+	)
+	(no_connect
+		(at 91.44 120.65)
+		(uuid "16c07ae0-f103-43d5-84eb-be10b89008f5")
+	)
+	(no_connect
+		(at 124.46 97.79)
+		(uuid "2a1d3fc5-8287-4f77-b6e3-8d48afc49719")
+	)
+	(no_connect
 		(at 180.34 36.83)
 		(uuid "40962e51-5560-49b6-bda0-361ce0c04701")
 	)
@@ -4635,12 +4669,60 @@
 		(uuid "519ce03c-5e22-445d-b5a1-15d9b05def0f")
 	)
 	(no_connect
+		(at 132.08 120.65)
+		(uuid "54ced9da-0fc5-4ad6-951b-29a3666cc98e")
+	)
+	(no_connect
+		(at 133.35 91.44)
+		(uuid "5dc4a7e8-2cfe-48cd-a27f-1204fcdca0ab")
+	)
+	(no_connect
+		(at 91.44 110.49)
+		(uuid "5f5bc8b1-a5af-45f6-bc39-9bce3cdf9c7a")
+	)
+	(no_connect
+		(at 91.44 140.97)
+		(uuid "61dc421d-5fec-4292-b826-2d0996a9ed92")
+	)
+	(no_connect
+		(at 91.44 135.89)
+		(uuid "786a8bf2-59f8-460d-a179-8aab30fb7ee7")
+	)
+	(no_connect
 		(at 40.64 39.37)
 		(uuid "8d724dad-03c7-4000-bd41-4eccd7f02803")
 	)
 	(no_connect
+		(at 91.44 92.71)
+		(uuid "9c1a583f-41b6-475e-8ca0-af10baca2146")
+	)
+	(no_connect
+		(at 91.44 133.35)
+		(uuid "be88c69b-380f-40e8-b6d4-19783e6ac7af")
+	)
+	(no_connect
+		(at 91.44 138.43)
+		(uuid "d4f38b26-1654-499b-bd7b-1dae4847a1a6")
+	)
+	(no_connect
 		(at 180.34 39.37)
 		(uuid "d8721b2b-f8ea-4b1b-9952-def7070a28bb")
+	)
+	(no_connect
+		(at 91.44 87.63)
+		(uuid "db41f111-2db0-4b5c-b2a8-e75fcd20ee4d")
+	)
+	(no_connect
+		(at 124.46 87.63)
+		(uuid "dfe5d886-9a2d-4233-867d-82a02a386f96")
+	)
+	(no_connect
+		(at 91.44 130.81)
+		(uuid "f46c7bf2-955c-4beb-92a8-044f1bed7c59")
+	)
+	(no_connect
+		(at 91.44 125.73)
+		(uuid "fdd9c94b-abe0-4650-bf2a-93251d6ab2ba")
 	)
 	(wire
 		(pts
@@ -4911,6 +4993,16 @@
 			(type default)
 		)
 		(uuid "209abf3c-11b0-49f4-bbbc-e9e6b7c570ac")
+	)
+	(wire
+		(pts
+			(xy 76.2 97.79) (xy 76.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2113913d-7a2f-4f62-a348-545a0067a416")
 	)
 	(wire
 		(pts
@@ -5491,6 +5583,16 @@
 			(type default)
 		)
 		(uuid "6afadb4e-6162-4810-a120-376c257d89e7")
+	)
+	(wire
+		(pts
+			(xy 76.2 118.11) (xy 91.44 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9f505a-46f8-4ff0-9562-1ba569beaf75")
 	)
 	(wire
 		(pts
@@ -7039,6 +7141,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 87.63 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c2a5bd8-617c-4fb8-b39b-df3d6b777f3b")
+		(property "Reference" "D4"
+			(at 87.3126 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DEBUG LED 2"
+			(at 86.614 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 87.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 87.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 87.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "92af7fcc-1d6e-4d68-8b74-0725fda54c55")
+		)
+		(pin "1"
+			(uuid "f9c50b8b-d496-4f59-bcac-5b35d42e51da")
+		)
+		(instances
+			(project "TEMPERATURE_SENSOR_KICAD"
+				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 264.16 127 0)
 		(unit 1)
@@ -8026,6 +8206,72 @@
 			(project ""
 				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d6ce5a1-211f-4d6e-b99f-69ec9e9fe996")
+		(property "Reference" "#PWR077"
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3ff35de-0508-4a27-8351-f8715ec2cbd9")
+		)
+		(instances
+			(project "TEMPERATURE_SENSOR_KICAD"
+				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -9538,6 +9784,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 80.01 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cafd587-8ac4-443d-8b86-4b95cf33d75b")
+		(property "Reference" "R3"
+			(at 77.216 94.742 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k5"
+			(at 80.01 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 80.01 96.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 80.01 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "364b026c-bc8c-48cc-b796-c7020ff1e216")
+		)
+		(pin "1"
+			(uuid "aed22b32-0247-4196-b9db-3a1914e4dba2")
+		)
+		(instances
+			(project "TEMPERATURE_SENSOR_KICAD"
+				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 167.64 146.05 0)
 		(unit 1)
@@ -10288,6 +10601,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 80.01 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b251e51b-5088-407b-a163-a75e0825de90")
+		(property "Reference" "R4"
+			(at 80.01 103.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k5"
+			(at 74.422 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 80.01 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 80.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c174e4ef-2654-4aa7-a185-09ae2c6f9d6f")
+		)
+		(pin "1"
+			(uuid "fde641e8-f6b6-470f-9926-6d61636a0408")
+		)
+		(instances
+			(project "TEMPERATURE_SENSOR_KICAD"
+				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2025-10-19_16-52-39:TPS62932DRLR")
 		(at 40.64 39.37 0)
 		(mirror x)
@@ -11007,6 +11387,84 @@
 			(project "TEMPERATURE_SENSOR_KICAD"
 				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
 					(reference "Css2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 87.63 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd4a9754-7421-489d-8513-3a7b398fc432")
+		(property "Reference" "D3"
+			(at 85.344 91.186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DEBUG LED 1"
+			(at 89.408 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32a9ab91-24a2-42ee-a6d2-3cfb93a37adf")
+		)
+		(pin "1"
+			(uuid "1674da2a-f3f2-43c4-9a25-2aca38baae1a")
+		)
+		(instances
+			(project "TEMPERATURE_SENSOR_KICAD"
+				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
+					(reference "D3")
 					(unit 1)
 				)
 			)
