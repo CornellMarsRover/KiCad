@@ -7010,7 +7010,7 @@
 		)
 		(uuid "6b5795c3-90fa-4351-9ff1-7b063118416d")
 	)
-	(global_label "FDCAN_TX"
+	(global_label "FDCAN_+"
 		(shape input)
 		(at 93.98 113.03 0)
 		(fields_autoplaced yes)
@@ -7022,7 +7022,7 @@
 		)
 		(uuid "1ff66760-4336-4dea-ae39-27d80c9e6430")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.1576 113.03 0)
+			(at 105.5529 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7032,7 +7032,7 @@
 			)
 		)
 	)
-	(global_label "FDCAN_RX"
+	(global_label "FDCAN_-"
 		(shape input)
 		(at 93.98 110.49 0)
 		(fields_autoplaced yes)
@@ -7044,7 +7044,7 @@
 		)
 		(uuid "521888ce-f147-4160-be84-d7001a20a0ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.46 110.49 0)
+			(at 105.5529 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
