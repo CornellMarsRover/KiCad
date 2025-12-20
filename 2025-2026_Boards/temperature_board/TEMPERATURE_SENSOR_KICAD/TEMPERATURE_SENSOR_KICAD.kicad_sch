@@ -5102,6 +5102,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 125.73) (xy 57.15 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03fa4d16-8884-4793-8186-85642aaf4ce0")
+	)
+	(wire
+		(pts
 			(xy 54.61 175.26) (xy 100.33 175.26)
 		)
 		(stroke
@@ -5259,16 +5269,6 @@
 			(type default)
 		)
 		(uuid "171f5870-3ba3-4c3c-8e79-9264580073f2")
-	)
-	(wire
-		(pts
-			(xy 41.91 138.43) (xy 55.88 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "173c0ade-ae5d-47a6-9af4-50ae27c54bee")
 	)
 	(wire
 		(pts
@@ -5532,6 +5532,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 120.65) (xy 50.8 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bb0fc6b-aebd-453a-97e7-b3e9a4828fb1")
+	)
+	(wire
+		(pts
 			(xy 29.21 77.47) (xy 40.64 77.47)
 		)
 		(stroke
@@ -5659,16 +5669,6 @@
 			(type default)
 		)
 		(uuid "4457e938-aeb4-48c4-91f9-200e49b38efc")
-	)
-	(wire
-		(pts
-			(xy 41.91 140.97) (xy 44.45 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "450717f8-b05f-4656-af9b-57316afaff12")
 	)
 	(wire
 		(pts
@@ -5812,16 +5812,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 123.19) (xy 58.42 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f4647eb-ffb2-4e44-a715-a485f87a2dad")
-	)
-	(wire
-		(pts
 			(xy 168.91 35.56) (xy 168.91 38.1)
 		)
 		(stroke
@@ -5862,16 +5852,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 125.73) (xy 57.15 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56960c1b-ff0e-45d7-875d-db7e051b2531")
-	)
-	(wire
-		(pts
 			(xy 59.69 118.11) (xy 59.69 140.97)
 		)
 		(stroke
@@ -5909,16 +5889,6 @@
 			(type default)
 		)
 		(uuid "586ad10b-0227-45d5-8393-0b73c84c5e81")
-	)
-	(wire
-		(pts
-			(xy 41.91 130.81) (xy 49.53 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59cf0729-1bda-430b-8336-cafe7e20fa31")
 	)
 	(wire
 		(pts
@@ -6042,7 +6012,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 186.69) (xy 107.95 186.69)
+			(xy 52.07 186.69) (xy 107.95 186.69)
 		)
 		(stroke
 			(width 0)
@@ -6112,16 +6082,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 118.11) (xy 59.69 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "733e61c9-1a9b-4a84-8cdb-4bbc00474d17")
-	)
-	(wire
-		(pts
 			(xy 227.33 82.55) (xy 227.33 85.09)
 		)
 		(stroke
@@ -6149,6 +6109,26 @@
 			(type default)
 		)
 		(uuid "75fac0df-1412-4875-83e5-12f512610c31")
+	)
+	(wire
+		(pts
+			(xy 52.07 130.81) (xy 49.53 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79dff480-949c-4c23-818a-e4568f35d587")
+	)
+	(wire
+		(pts
+			(xy 49.53 123.19) (xy 58.42 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a41c4fc-afc8-4f28-8fe7-0dde2fdbb358")
 	)
 	(wire
 		(pts
@@ -6322,16 +6302,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 120.65) (xy 50.8 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f784bd0-0616-4ff2-a911-17289da90f61")
-	)
-	(wire
-		(pts
 			(xy 76.2 69.85) (xy 78.74 69.85)
 		)
 		(stroke
@@ -6392,6 +6362,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 115.57) (xy 55.88 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a32fadc7-3d8a-44be-9452-479bf1b379d6")
+	)
+	(wire
+		(pts
 			(xy 93.98 107.95) (xy 105.41 107.95)
 		)
 		(stroke
@@ -6442,7 +6422,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 180.34) (xy 102.87 180.34)
+			(xy 49.53 180.34) (xy 102.87 180.34)
 		)
 		(stroke
 			(width 0)
@@ -6539,6 +6519,16 @@
 			(type default)
 		)
 		(uuid "b958b1fa-a3a6-4878-bd0d-5cd75d5034da")
+	)
+	(wire
+		(pts
+			(xy 49.53 138.43) (xy 55.88 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba3d7d15-8dca-41bf-b369-1b81223e9dd0")
 	)
 	(wire
 		(pts
@@ -6692,6 +6682,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 118.11) (xy 59.69 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d02f320f-ad43-438f-821d-2a625134bbf3")
+	)
+	(wire
+		(pts
 			(xy 83.82 68.58) (xy 99.06 68.58)
 		)
 		(stroke
@@ -6702,7 +6702,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 140.97) (xy 44.45 180.34)
+			(xy 49.53 140.97) (xy 49.53 180.34)
 		)
 		(stroke
 			(width 0)
@@ -6752,7 +6752,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 130.81) (xy 49.53 186.69)
+			(xy 52.07 130.81) (xy 52.07 186.69)
 		)
 		(stroke
 			(width 0)
@@ -6769,16 +6769,6 @@
 			(type default)
 		)
 		(uuid "d8e05c82-5923-4ee8-bfcb-80f2514adce6")
-	)
-	(wire
-		(pts
-			(xy 41.91 115.57) (xy 55.88 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dacd5a43-1a88-40c8-868b-c80019a5d6c6")
 	)
 	(wire
 		(pts
@@ -7051,6 +7041,207 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d85b812-d321-4bb6-b394-5c37143722d1")
+		(property "Reference" "R10"
+			(at 45.974 125.984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 49.784 126.746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 45.72 123.952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b60d11b-2cef-498b-8bce-438f6ac5dd50")
+		)
+		(pin "2"
+			(uuid "50a4e80d-6b4d-4b24-b4df-acd3805717ae")
+		)
+		(instances
+			(project "TEMPERATURE_SENSOR_KICAD"
+				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f410327-bddd-4d47-886f-2ec937fcd9ed")
+		(property "Reference" "R6"
+			(at 45.974 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 50.546 118.872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 45.72 116.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df9de01c-e639-42be-8c21-d3be69413ce4")
+		)
+		(pin "2"
+			(uuid "b144143c-6f28-4559-84e0-c00a21cf6f28")
+		)
+		(instances
+			(project "TEMPERATURE_SENSOR_KICAD"
+				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f5ea33d-426c-44ed-9396-395bbd2ae2c2")
+		(property "Reference" "R5"
+			(at 45.974 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 51.054 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 45.72 113.792 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c4027e7-15c6-4eaf-ab3e-f18093a1b242")
+		)
+		(pin "2"
+			(uuid "b83647e1-751f-4b3a-b6f3-ef04b1b26f6f")
+		)
+		(instances
+			(project ""
+				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
+					(reference "R5")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -8004,6 +8195,73 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 45.72 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "272626a7-726a-4f85-82fd-dfca45147015")
+		(property "Reference" "R11"
+			(at 45.974 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 49.784 131.826 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 45.72 129.032 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c8c1df8-5ceb-436a-880a-608d5132a673")
+		)
+		(pin "2"
+			(uuid "935a181e-4cff-40e2-a657-837596677438")
+		)
+		(instances
+			(project "TEMPERATURE_SENSOR_KICAD"
+				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 349.25 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8721,6 +8979,73 @@
 			(project "TEMPERATURE_SENSOR_KICAD"
 				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
 					(reference "Cen2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46480c1c-e7a7-4c64-a26d-63ede2820cef")
+		(property "Reference" "R7"
+			(at 45.974 120.904 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 49.784 121.666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 45.72 118.872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac7c6d7f-155a-4b34-8855-cf70d6109a60")
+		)
+		(pin "2"
+			(uuid "0347d17f-890e-4912-bc08-eaffb655ed42")
+		)
+		(instances
+			(project "TEMPERATURE_SENSOR_KICAD"
+				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -12171,6 +12496,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 45.72 123.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8bf533c-23a6-43c7-95e2-3a24dd31b9c5")
+		(property "Reference" "R8"
+			(at 45.974 123.444 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 49.784 124.206 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 45.72 121.412 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d67b6672-fb48-4aa0-8a19-afe988d4312b")
+		)
+		(pin "2"
+			(uuid "c2974ceb-2799-4d68-9880-5544bdda3cd9")
+		)
+		(instances
+			(project "TEMPERATURE_SENSOR_KICAD"
+				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 262.89 58.42 0)
 		(unit 1)
@@ -12297,6 +12689,140 @@
 			(project "TEMPERATURE_SENSOR_KICAD"
 				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6e2ce9b-aeb0-4b7f-8f6e-05c816635e7d")
+		(property "Reference" "R13"
+			(at 45.974 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 49.784 141.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 45.72 139.192 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "188be47f-7de4-43fd-a725-b1db9495814a")
+		)
+		(pin "2"
+			(uuid "10615bdb-3f12-4d0d-ad3f-720c43bd9062")
+		)
+		(instances
+			(project "TEMPERATURE_SENSOR_KICAD"
+				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 138.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8d52393-dd45-4fa5-b9d8-5df12c521cd3")
+		(property "Reference" "R12"
+			(at 45.974 138.684 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 49.784 139.446 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 45.72 136.652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1149d850-fd39-4c6d-b104-36a0f8344594")
+		)
+		(pin "2"
+			(uuid "f3654f97-d04a-402a-98f4-117164815243")
+		)
+		(instances
+			(project "TEMPERATURE_SENSOR_KICAD"
+				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
+					(reference "R12")
 					(unit 1)
 				)
 			)
