@@ -5445,6 +5445,10 @@
 		(uuid "786a8bf2-59f8-460d-a179-8aab30fb7ee7")
 	)
 	(no_connect
+		(at 93.98 95.25)
+		(uuid "7d7e88e0-8577-4c71-8657-d257f4278373")
+	)
+	(no_connect
 		(at 60.96 100.33)
 		(uuid "87ba1817-4c48-4741-a5b3-71dbbb38c312")
 	)
@@ -10195,73 +10199,6 @@
 			(project "TEMPERATURE_SENSOR_KICAD"
 				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 93.98 95.25 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57d7d73b-0c52-4330-b0ae-79178b76791d")
-		(property "Reference" "#PWR067"
-			(at 90.17 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2.2V"
-			(at 97.79 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 93.98 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c7a66f8-8607-438e-8418-eafdaad6e379")
-		)
-		(instances
-			(project ""
-				(path "/0800d6d6-19ae-426e-ad65-5e021a8f0397"
-					(reference "#PWR067")
 					(unit 1)
 				)
 			)
