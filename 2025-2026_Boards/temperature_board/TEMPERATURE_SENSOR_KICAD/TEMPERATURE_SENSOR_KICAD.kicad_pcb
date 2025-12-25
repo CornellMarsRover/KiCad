@@ -4517,13 +4517,13 @@
 	(footprint "Inductor_SMD:L_Bourns_SRR1208_12.7x12.7mm"
 		(layer "F.Cu")
 		(uuid "4745d83d-4152-4b09-8856-9de9b22dfce4")
-		(at 94.66 130.04)
+		(at 91.2975 141.71)
 		(descr "Bourns SRP1208 series SMD inductor https://www.bourns.com/pdfs/SRR1208.pdf")
 		(tags "Bourns SRP1208 SMD inductor")
 		(property "Reference" "L2"
 			(at 0 -7.4 0)
 			(layer "F.SilkS")
-			(uuid "58b7f962-6931-48fe-9ae6-56ed0dcbcf0c")
+			(uuid "48ac0493-079c-4c89-842c-9268af860c27")
 			(effects
 				(font
 					(size 1 1)
@@ -4535,7 +4535,7 @@
 			(at 0.2 8.1 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "02567dd3-53fa-43ba-846e-46a4eef2f8ca")
+			(uuid "d6fbf24c-fb56-4a20-a39d-d09dbef7f473")
 			(effects
 				(font
 					(size 1 1)
@@ -4548,7 +4548,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "60eb2a29-ca5e-4fdc-b560-4c394a4a80e4")
+			(uuid "0773afd7-25ca-4180-8368-47a42213aaeb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,7 +4561,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5326a1cd-1f28-445d-9f7e-33c624e3906e")
+			(uuid "53de5a9e-61ce-4f4b-a9c5-27963c2f66ae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29234,14 +29234,6 @@
 		(uuid "2dc73ae0-d40d-4796-a83d-26a8633f86ee")
 	)
 	(segment
-		(start 99.66 130.04)
-		(end 97.22 130.04)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 8)
-		(uuid "2f63e9da-2264-45ff-bba2-48d43bda5189")
-	)
-	(segment
 		(start 105.25 162.75)
 		(end 105.25 163.2175)
 		(width 0.5)
@@ -29418,14 +29410,6 @@
 		(uuid "60bb523b-4781-4316-92da-8d3a825efcb8")
 	)
 	(segment
-		(start 97.22 130.04)
-		(end 87.51 139.75)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 8)
-		(uuid "67b1ccf6-1571-408c-9b69-40b580617dfa")
-	)
-	(segment
 		(start 123.5 163.185)
 		(end 123.5 160.25)
 		(width 0.5)
@@ -29570,6 +29554,14 @@
 		(uuid "c73ae332-fe31-4f11-9fae-11af36d82a1a")
 	)
 	(segment
+		(start 96.2975 141.71)
+		(end 96.2975 133.4025)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 8)
+		(uuid "c8daa53a-acbe-4e7b-b0bd-fab294edcc38")
+	)
+	(segment
 		(start 143 131.4675)
 		(end 143 118.7825)
 		(width 0.5)
@@ -29632,6 +29624,14 @@
 		(layer "F.Cu")
 		(net 8)
 		(uuid "e9e839a6-a47e-4013-ad3b-3628360ac9e1")
+	)
+	(segment
+		(start 96.2975 133.4025)
+		(end 99.66 130.04)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 8)
+		(uuid "eac462aa-06ea-4997-93cb-d1b2099e62ee")
 	)
 	(segment
 		(start 120.904999 114.27)
@@ -31690,6 +31690,22 @@
 		(uuid "ff5201fe-4a22-4653-b8aa-499eb2cd4658")
 	)
 	(segment
+		(start 86.2975 141.71)
+		(end 86.2975 133.4025)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 51)
+		(uuid "0e4c3616-8f4f-4f2d-a26c-61d137f74d39")
+	)
+	(segment
+		(start 89.89 129.81)
+		(end 89.66 130.04)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 51)
+		(uuid "23ed5853-0edb-4e7c-b738-75ceea23ca24")
+	)
+	(segment
 		(start 97.2409 121.460189)
 		(end 98.695189 121.460189)
 		(width 0.2)
@@ -31698,8 +31714,16 @@
 		(uuid "3361c387-b6ce-40e3-be3c-ac3b77ab6207")
 	)
 	(segment
+		(start 86.2975 133.4025)
+		(end 89.89 129.81)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 51)
+		(uuid "4c560680-6dd2-42d8-aaea-e16b5f7528e8")
+	)
+	(segment
 		(start 97.2409 122.4591)
-		(end 89.66 130.04)
+		(end 89.89 129.81)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 51)
@@ -32096,14 +32120,6 @@
 		(layer "F.Cu")
 		(net 68)
 		(uuid "3c047073-83d9-4969-9c22-115fb9b934fe")
-	)
-	(segment
-		(start 125.96 127)
-		(end 123.16 124.2)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 68)
-		(uuid "ce4e9e16-7eb6-49c2-a633-aec13766ae05")
 	)
 	(segment
 		(start 125.470252 128.509748)
