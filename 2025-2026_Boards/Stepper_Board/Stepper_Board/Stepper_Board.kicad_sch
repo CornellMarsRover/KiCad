@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "afdf0c53-d87b-4ae5-aa44-610ba3220cb0")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 13.97 13.97)
+		(size 53.34 71.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5dd697c3-25ca-4604-87ca-288b4b772744")
+		(property "Sheetname" "Power"
+			(at 13.97 13.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 13.97 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Stepper_Board"
+				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
