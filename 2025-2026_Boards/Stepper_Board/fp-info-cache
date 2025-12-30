@@ -1,4 +1,4 @@
-26770861940104632
+26770864204609587
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59352,6 +59352,27 @@ ceramic
 0
 3
 3
+DRV8434SRGER
+RGE0024B_TEX
+
+DRV8434SRGER 
+0
+25
+25
+DRV8434SRGER
+RGE0024B_TEX-L
+
+DRV8434SRGER 
+0
+25
+25
+DRV8434SRGER
+RGE0024B_TEX-M
+
+DRV8434SRGER 
+0
+25
+25
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -70574,19 +70595,12 @@ Yellow 5381 Series LED
 2
 2
 LM63460AASQRYFRQ1
-VQFN-FCRLF22_RYF_TEX
+VQFN22_RYF_TEX
 
-LM63460AASQRYFRQ1 
+PLM63460AASQRYFTQ1 
 0
 23
 23
-LMR51450SDRRR
-CONV_LMR51450SDRRR
-
-
-0
-16
-16
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -97292,13 +97306,6 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-S2B_PH_SM4_TB
-JST_S2B-PH-SM4-TB
-
-
-0
-4
-4
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -99400,19 +99407,12 @@ Logo WEEE
 0
 0
 TLVM23625RDNR
-RDN0011A-MFG
-
-TLVM23625RDNR 
-0
-23
-23
-TMP275AIDGKR
-SOP65P490X110-8N
+CONV_TLVM23625RDNR
 
 
 0
-8
-8
+30
+30
 TerminalBlock
 TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
 terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu

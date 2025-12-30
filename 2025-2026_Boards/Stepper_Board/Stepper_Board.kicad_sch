@@ -47,6 +47,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 71.12 13.97)
+		(size 49.53 71.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "88c6ea8e-c677-49e9-b66c-f9477acc2409")
+		(property "Sheetname" "Driver"
+			(at 71.12 13.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 71.12 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Stepper_Board"
+				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
