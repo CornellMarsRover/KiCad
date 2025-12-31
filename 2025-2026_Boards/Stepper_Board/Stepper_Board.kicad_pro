@@ -420,6 +420,10 @@
     [
       "88c6ea8e-c677-49e9-b66c-f9477acc2409",
       "Driver"
+    ],
+    [
+      "03775ae2-2f8b-4b47-a8b3-c4248829d87d",
+      "MCU"
     ]
   ],
   "text_variables": {}

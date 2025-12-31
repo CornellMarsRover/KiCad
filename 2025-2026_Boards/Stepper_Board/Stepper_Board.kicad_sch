@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 124.46 13.97)
+		(size 50.8 71.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "03775ae2-2f8b-4b47-a8b3-c4248829d87d")
+		(property "Sheetname" "MCU"
+			(at 124.46 13.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 124.46 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Stepper_Board"
+				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 13.97 13.97)
 		(size 53.34 71.12)
 		(exclude_from_sim no)
