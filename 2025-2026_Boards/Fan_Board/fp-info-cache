@@ -1,4 +1,4 @@
-26770861940104632
+26769097757946174
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2813,6 +2813,13 @@ speaker CUI
 0
 2
 2
+CMR_Logo
+CMR_Logo
+
+
+0
+0
+0
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -70573,13 +70580,6 @@ Yellow 5381 Series LED
 0
 2
 2
-LM63460AASQRYFRQ1
-VQFN-FCRLF22_RYF_TEX
-
-LM63460AASQRYFRQ1 
-0
-23
-23
 LMR51450SDRRR
 CONV_LMR51450SDRRR
 
@@ -99399,13 +99399,6 @@ Logo WEEE
 0
 0
 0
-TLVM23625RDNR
-RDN0011A-MFG
-
-TLVM23625RDNR 
-0
-23
-23
 TMP275AIDGKR
 SOP65P490X110-8N
 
