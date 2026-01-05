@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at 236.22 13.97)
+		(size 44.45 71.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "18f3f477-137f-4d3c-b7db-3069232b6dd7")
+		(property "Sheetname" "Test Points"
+			(at 236.22 13.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Test_Points.kicad_sch"
+			(at 236.22 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Stepper_Board"
+				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 13.97 13.97)
 		(size 53.34 71.12)
 		(exclude_from_sim no)
@@ -85,6 +127,48 @@
 			(project "Stepper_Board"
 				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 13.97)
+		(size 49.53 71.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "766c7b43-69c9-4b2f-8aa4-0ca55d78a341")
+		(property "Sheetname" "FDCAN"
+			(at 180.34 13.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FDCAN.kicad_sch"
+			(at 180.34 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Stepper_Board"
+				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0"
+					(page "5")
 				)
 			)
 		)

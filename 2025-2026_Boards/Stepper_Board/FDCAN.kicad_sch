@@ -1563,7 +1563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03ba7ab1-792a-4583-b765-570c38a2b0b1")
-		(property "Reference" "U3"
+		(property "Reference" "U6"
 			(at 128.27 71.12 0)
 			(effects
 				(font
@@ -1664,8 +1664,8 @@
 		)
 		(instances
 			(project "Stepper_Board"
-				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0/f1c777ac-0ce7-4e64-94e9-03bc56f74420"
-					(reference "U3")
+				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0/766c7b43-69c9-4b2f-8aa4-0ca55d78a341"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -1680,7 +1680,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11f47603-0e8f-4710-8339-27ce1924b7c9")
-		(property "Reference" "C14"
+		(property "Reference" "C31"
 			(at 75.692 90.17 0)
 			(effects
 				(font
@@ -1733,8 +1733,8 @@
 		)
 		(instances
 			(project "Stepper_Board"
-				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0/f1c777ac-0ce7-4e64-94e9-03bc56f74420"
-					(reference "C14")
+				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0/766c7b43-69c9-4b2f-8aa4-0ca55d78a341"
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -1750,7 +1750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2198828f-ce5e-449a-bcd1-54d079911949")
-		(property "Reference" "J11"
+		(property "Reference" "J6"
 			(at 195.58 82.5499 0)
 			(effects
 				(font
@@ -1806,8 +1806,8 @@
 		)
 		(instances
 			(project "Stepper_Board"
-				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0/f1c777ac-0ce7-4e64-94e9-03bc56f74420"
-					(reference "J11")
+				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0/766c7b43-69c9-4b2f-8aa4-0ca55d78a341"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -1823,7 +1823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55de2cda-295a-4a1b-860e-4abdfc702a05")
-		(property "Reference" "J12"
+		(property "Reference" "J7"
 			(at 195.58 92.7099 0)
 			(effects
 				(font
@@ -1879,8 +1879,8 @@
 		)
 		(instances
 			(project "Stepper_Board"
-				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0/f1c777ac-0ce7-4e64-94e9-03bc56f74420"
-					(reference "J12")
+				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0/766c7b43-69c9-4b2f-8aa4-0ca55d78a341"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -1944,7 +1944,7 @@
 		)
 		(instances
 			(project "Stepper_Board"
-				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0/f1c777ac-0ce7-4e64-94e9-03bc56f74420"
+				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0/766c7b43-69c9-4b2f-8aa4-0ca55d78a341"
 					(reference "#PWR037")
 					(unit 1)
 				)
@@ -2010,7 +2010,7 @@
 		)
 		(instances
 			(project "Stepper_Board"
-				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0/f1c777ac-0ce7-4e64-94e9-03bc56f74420"
+				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0/766c7b43-69c9-4b2f-8aa4-0ca55d78a341"
 					(reference "#PWR034")
 					(unit 1)
 				)
@@ -2075,7 +2075,7 @@
 		)
 		(instances
 			(project "Stepper_Board"
-				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0/f1c777ac-0ce7-4e64-94e9-03bc56f74420"
+				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0/766c7b43-69c9-4b2f-8aa4-0ca55d78a341"
 					(reference "#PWR036")
 					(unit 1)
 				)
@@ -2140,7 +2140,7 @@
 		)
 		(instances
 			(project ""
-				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0/f1c777ac-0ce7-4e64-94e9-03bc56f74420"
+				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0/766c7b43-69c9-4b2f-8aa4-0ca55d78a341"
 					(reference "#PWR035")
 					(unit 1)
 				)
@@ -2206,7 +2206,7 @@
 		)
 		(instances
 			(project ""
-				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0/f1c777ac-0ce7-4e64-94e9-03bc56f74420"
+				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0/766c7b43-69c9-4b2f-8aa4-0ca55d78a341"
 					(reference "#PWR041")
 					(unit 1)
 				)
@@ -2222,7 +2222,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f34c316b-555c-4b50-b7bc-9bc4cb5359e7")
-		(property "Reference" "C15"
+		(property "Reference" "C32"
 			(at 85.598 90.17 0)
 			(effects
 				(font
@@ -2275,8 +2275,8 @@
 		)
 		(instances
 			(project "Stepper_Board"
-				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0/f1c777ac-0ce7-4e64-94e9-03bc56f74420"
-					(reference "C15")
+				(path "/afdf0c53-d87b-4ae5-aa44-610ba3220cb0/766c7b43-69c9-4b2f-8aa4-0ca55d78a341"
+					(reference "C32")
 					(unit 1)
 				)
 			)
