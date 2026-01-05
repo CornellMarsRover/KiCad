@@ -147,7 +147,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "6f0b556e-f020-4647-831f-f58f8ec44ebe")
-		(property "Sheetname" "AUX"
+		(property "Sheetname" "AUX_Port"
 			(at 162.56 116.1284 0)
 			(effects
 				(font
