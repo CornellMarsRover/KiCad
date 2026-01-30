@@ -13239,7 +13239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT8_DRL_TEX"
+		(property "Footprint" ""
 			(at 181.61 40.64 0)
 			(effects
 				(font
